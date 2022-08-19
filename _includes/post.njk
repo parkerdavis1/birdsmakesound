@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+
+        {% if coverImage %}
+        {% asyncCssBackground coverImage, ".cover-image" %}
+        {% endif %}
+        .cover-image {
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: center center;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="top-bar">
+        <h1><a href="/">birds make sound</a></h1>
+        <nav class="page-nav">
+                {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+                {%- if nextPost %}
+                    <a href="{{ nextPost.url | url }}">
+                        <div class="nav-item">
+                        ←{{ nextPost.data.title }}
+                        </div>
+                    </a>
+                {% endif %}
+
+                {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+                {%- if previousPost %}
+                    <a href="{{ previousPost.url | url }}">
+                        <div class="nav-item">
+                        {{ previousPost.data.title }}→
+                        </div>
+                    </a>
+                {% endif %}
+                </nav>
+    </div>
+
+    {% if coverImage %}
+    <div class="cover-image">
+        {% if altTitle %}
+        <h1><a href="#post-start">{{altTitle}}</a></h1>
+        {% else %}
+        <h1><a href="#post-start">{{title}}</a></h1>
+        {% endif %}
+    </div>
+    {% endif %}
+    </header>
+
+    <div class="footer-grid-container">
+    <main id="post-start">
+        {# <div>
+            <h1><a href="/">birds make sound</a></h1>
+        </div> #}
+        <div class="post-container">
+
+
+            <div class="post-content">
+                <h2>{{title}}</h2>
+                <p class="authorDate"><span class="author">{{author}}</span> | <span class="date">{{date | readableDate}}</span></p>
+                
+                {{ content | safe }}
+                
+                <nav class="page-nav">
+                {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+                {%- if nextPost %}
+                    <a href="{{ nextPost.url | url }}">
+                        <div class="nav-item">
+                        ←{{ nextPost.data.title }}
+                        </div>
+                    </a>
+                {% else %}
+                    <div></div>
+                {% endif %}
+
+                {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+                {%- if previousPost %}
+                    <div class="nav-item">
+                    <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}→</a>
+                    </div>
+                {% else %}
+                    <div></div>
+                {% endif %}
+                </nav>
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p><a href="/">Birds Make Sound</a></p>
+    </footer>
+    </div>
+
+    {# <nav class="site-nav">
+        <p>ALL POSTS:</p>
+        <ul>
+            {% for blog in collections.blog | reverse %}
+            <li><a href="{{blog.url}}">{{blog.data.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </nav> #}
+
+
+</body>
+</html>
