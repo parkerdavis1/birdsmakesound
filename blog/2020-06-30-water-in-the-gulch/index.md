@@ -4,7 +4,7 @@ date: 2020-06-30
 coverImage: "blog/2020-06-30-water-in-the-gulch/images/CBTH.jpg"
 ---
 
-It's another hot dry day in Phoenix. Wildfires are burning across Arizona including the fifth largest fire in state history, 30 miles northeast of where I sit. The birds out the window have their beaks agape, increasing their evaporative cooling while also appearing to share my slack-jawed incredulity at the relentless low-desert summer heat.
+It's another hot dry day in Phoenix. Wildfires are burning across Arizona including the fifth largest fire in state history, 30 miles northeast of where I sit. The birds out the window have their beaks wide open, increasing their evaporative cooling while also appearing to share my slack-jawed incredulity at the relentless low-desert summer heat.
 
 Normally at this time of year I do biological field work in cooler climes but with many field seasons being suspended this year due to COVID-19, I am plodding through summer with the rest of Phoenix. Through the magic of digital recording, however, I’m able to time-travel to a mere three months ago: It is in the mid-60s and after a sudden early spring downpour, the normally bone-dry gulch behind my house is full of flowing water.
 

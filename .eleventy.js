@@ -20,13 +20,7 @@ const imageShortcode = async (src, alt, animated=false) => {
   }
 
   let stats = await Image(src, options);
-  console.log("-----------stats-----------");
-  console.log(stats);
-
   let lowestSrc = stats["jpeg"][0];
-
-  console.log("-----------lowestSrc-----------");
-  console.log(lowestSrc);
 
   const srcset = Object.keys(stats).reduce(
     (acc, format) => ({
@@ -38,13 +32,8 @@ const imageShortcode = async (src, alt, animated=false) => {
     }),
     {}
   );
-  console.log("-----------srcset-----------")
-  console.log(srcset)
 
   const source = `<source type="image/webp" srcset="${srcset["webp"]}">`;
-
-  console.log("-----------source-----------")
-  console.log(source)
 
   const img = `<img
     loading="lazy"
@@ -52,13 +41,8 @@ const imageShortcode = async (src, alt, animated=false) => {
     src="${lowestSrc.url}"
     sizes='100vw'
     srcset="${srcset["jpeg"]}">`;
-
-  console.log("-----------img-----------")
-  console.log(img)
   
   const stringReturn = `<picture> ${source} ${img} </picture>`;
-  console.log('----------Final Return-------------')
-  console.log(stringReturn)
   return stringReturn;
 };
 
@@ -118,6 +102,7 @@ const asyncImageCssBackground = async(src, selector) => {
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy('css');
+    eleventyConfig.addPassthroughCopy('images');
 
     eleventyConfig.addNunjucksAsyncShortcode("asyncCssBackground", asyncImageCssBackground);
 

@@ -1,0 +1,30 @@
+<footer>
+    <div class="footer-links">
+    <p><a href="/">Home</a></p>
+    <p><a href="/about">About</a></p>
+    </div>
+    <form id="email-form" name="newsletter" method="POST" data-netlify="true">
+        <label><input type="email" name="email" placeholder="goose@bird.com"></label>
+        <button type="submit" id="submitButton">Subscribe</button>
+    </form>
+</footer>
+
+<script>
+    let submitButton = document.getElementById('submitButton')
+    document.getElementById("email-form").addEventListener("submit", event => {
+        event.preventDefault();
+        let myForm = document.getElementById("email-form");
+        let formData = new FormData(myForm);
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString(),
+        })
+            .then(() => {
+            console.log("Form successfully submitted");
+            submitButton.innerText = "Subscribed!";
+            submitButton.disabled = true;
+            })
+            .catch((error) => alert(error));
+    });
+</script>

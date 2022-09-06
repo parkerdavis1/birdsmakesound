@@ -3,3 +3,4 @@ converted-images
 _site
 .DS_Store
 image-resizer.js
+test-images

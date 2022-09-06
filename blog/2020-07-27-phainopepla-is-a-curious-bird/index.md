@@ -3,7 +3,7 @@ title: The Phainopepla is a curious bird
 date: 2020-07-27
 ---
 
-The Phainopepla is a curious bird. Their tall crest and feathers of silky black or gray are accentuated by piercing blood-red eyes. They reveal luminous white wing patches in their somewhat slow yet buoyant flight. In the Sonoran Desert they fiercely defend their clumps of desert mistletoe from intruders with an inquisitive “Wert?” A charming and charismatic bird at first glance, the closer one looks into any aspect of its natural history, one realizes the veracity of Allan Philips' claim in *The Birds of Arizona*: "Phainopeplas have no respect for the rules."
+The Phainopepla is a curious bird. Their tall crest and feathers of silky black or gray are accentuated by piercing blood-red eyes. They reveal bright white wing patches in their somewhat slow yet buoyant flight. In the Sonoran Desert they fiercely defend their clumps of desert mistletoe from intruders with an inquisitive “Wert?” A charming and charismatic bird at first glance, the closer one looks into any aspect of its natural history, one realizes why Allan Philips claimed in *The Birds of Arizona*: "Phainopeplas have no respect for the rules."
 
 <div class="align-right">
     "And there isn't any need for you to doubt it"

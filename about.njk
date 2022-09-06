@@ -1,0 +1,60 @@
+---
+layout: base.njk
+title: Birds Make Sound | About
+---
+
+<div class="about-grid-container">
+<div class="top-bar">
+    <h1 class="bms"><a href="/">birds make sound</a></h1>
+</div>
+
+<div class="about-page">
+
+    <h1>Welcome! 🕊</h1>
+
+    <p>This blog was created by me, <a href="https://parkerdavis.dev/" target="_blank">Parker Davis</a>.</p>
+
+    <p>I started this blog in the summer of 2020 then let it lay dormant for a few years... but it is <strong>BACK</strong></p>
+
+    <p>It's got a fresh new look and more posts are on the way.</p>
+
+    {# <form id="form" name="newsletter" method="POST" data-netlify="true">
+        <fieldset>
+            <legend>Subscribe to <strong>Birds Make Sound</strong> Newsletter</legend>
+            <p>
+                <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email"></label>
+            </p>
+            <p>
+                <label>Favorite Bird: <input type="text" name="favorite-bird"></label>
+            </p>
+            <button type="submit" id="submitButton">Subscribe!</button>
+        </fieldset>
+    </form> #}
+
+</div>
+
+{% include "footer.njk" %}
+</div>
+
+<script>
+    let submitButton = document.getElementById('submitButton')
+    document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
+        let myForm = document.getElementById("form");
+        let formData = new FormData(myForm);
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString(),
+        })
+            .then(() => {
+            console.log("Form successfully submitted");
+            submitButton.innerText = "Submitted!";
+            submitButton.disabled = true;
+            })
+            .catch((error) => alert(error));
+    });
+</script>

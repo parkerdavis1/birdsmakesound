@@ -1,22 +1,23 @@
 ---
 title: Eared Quetzal Trip Report
 date: 2020-11-03
+coverImage: "blog/2020-11-03-eared-quetzal-trip-report/images/quetzalfront.JPG"
 ---
 
 You probably don’t need me to tell you that today (November 3rd, 2020) is Election Day. If you haven’t already, please go vote. If you have, it might be healthy to think about something else for a bit. To this end I offer a humble trip report from early October when Nell and I headed to southeast Arizona.
 
-The primary target of our trip was a pair of famed Eared Quetzals that had been reported since June this summer. Nell and I were hesitant to chase these birds for months because they’re the kind of birds that draw crowds and, *for some reason*, we’re uncomfortable with crowds this year. However, the birds persisted through summer and fall, sometimes disappearing only to be re-found in nearby canyons. With the crowds thinning by early October we could almost hear the quetzals squealing to us. Finally, a series of coincident reports of other incredible birds in southern Arizona came through the birding grapevine, coalescing into a perfect itinerary for a quick tour of southeast Arizona.
+The primary target of our trip was a pair of famed Eared Quetzals that had been reported since June this summer. Nell and I were hesitant to chase these birds for months because they’re the kind of birds that draw crowds and, *for some reason*, we’re uncomfortable with crowds this year. However, the birds persisted through summer and fall, sometimes disappearing only to be re-found in nearby canyons. With the crowds thinning by early October we could almost hear the quetzals squealing to us. Finally, a series of coincident reports of other incredible birds came through the birding grapevine, coalescing into a perfect itinerary for a quick tour of southeast Arizona.
 
 ### Java with the Jacana
 
-We set off from Phoenix with our food, water, camping gear and fresh coffee towards Tucson. Even before reaching Tucson, we had an appointment with a bird. Taking the Ina Road exit on the north edge of the city, we drove past hotels, gas stations, and expansive strip malls that define the sprawling American suburban experience until we got to where the road passes over the Santa Rita River. On the pedestrian path along the roaring four-lane bridge, we had a clear vantage point over the modest slow-flowing river. Truthfully there is nothing modest about any Arizona river with water. With dams, drought, and many sipping straws throughout the western watersheds there are only a few rivers defiantly flowing on. Looking down at the river, from just a stone's throw away, we had an unobstructed view of an adult **Northern Jacana**.
+We set off from Phoenix to Tucson with our food, water, camping gear and fresh coffee. Even before reaching Tucson, we had an appointment with a bird. Taking the Ina Road exit on the north edge of the city, we drove past hotels, gas stations, and expansive strip malls that define the sprawling American suburban experience until we got to where the road passes over the Santa Rita River. On the pedestrian path along the roaring four-lane bridge, we had a clear vantage point over the modest slow-flowing river. Truthfully there is nothing modest about any Arizona river with water. With dams, drought, and many sipping straws throughout the western watersheds there are only a few rivers defiantly flowing on. Looking down at the river, from just a stone's throw away, we had an unobstructed view of an adult **Northern Jacana**.
 
 <div class="full-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/jacana.jpg", "Northern Jacana" %}
     <figcaption>Northern Jacana – photo: Nell Smith</figcaption>
 </div>
 
-With extremely long toes, the Northern Jacana can walk on top of floating vegetation and pick off otherwise hard to reach aquatic insects. Rails and other marsh birds are usually notoriously hard to see, skulking quietly in inaccessible marsh reeds. This jacana, however, which is very rarely found north of the border, was doing its thing in plain view from the bustling suburban pedestrian bridge. Our first "life bird" of the day.
+With extremely long toes, the Northern Jacana can walk on top of floating vegetation and pick off otherwise hard to reach aquatic insects. Rails and other marsh birds are usually notoriously hard to see, skulking quietly in inaccessible marsh reeds. This jacana, however, rarely found north of the border, was doing its thing in plain view from the bustling suburban pedestrian bridge. Our first "life bird" of the day.
 
 <div class="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pTMX3AtqYgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -24,7 +25,7 @@ With extremely long toes, the Northern Jacana can walk on top of floating vegeta
 
 ### Fizzy with the Phalarope, Reuben with the Ruff
 
-After picking up some to-go sandwiches in Tucson, we continued our tour of Interstate 10. Next up was Cochise Lake in Wilcox, Arizona. As we scanned through hundreds of ducks, shorebirds, and a few dozen flyover Sandhill Cranes, we were visited by an uncharacteristically tame immature Greater Roadrunner. While the focus of our trip was skewed towards the rare and unusual, that doesn't mean we didn't savor some quality time in awe of this prehistoric ground-dwelling desert cuckoo.
+After picking up some to-go sandwiches in Tucson, we continued our tour of Interstate 10. Next up was Cochise Lake in Wilcox, Arizona. As we scanned through hundreds of ducks, shorebirds, and a few dozen flyover Sandhill Cranes, we were visited by an uncharacteristically tame immature Greater Roadrunner. While the focus of our trip was skewed towards the rare and unusual, that doesn't mean we didn't savor some quality time with this prehistoric ground-dwelling desert cuckoo.
 
 <div class="full-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/roadrunner.jpg", "Greater Roadrunner" %}
@@ -76,12 +77,12 @@ We also had some mammalian visitors in the night. Several times throughout the n
 
 At dawn the next morning we brewed some coffee and headed back to the bridge on Forest Road 42. Sure enough the Eared Quetzals returned from their roost, this time foraging nonchalantly in trees overhanging the road much to the delight of the handful of birders present.
 
-<div class="full-width">
+<div class="center">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/quetzalfront.JPG", "Eared Quetzal Front" %}
     <figcaption>Eared Quetzal – photo: Nell Smith</figcaption>
 </div>
 
-Just look at that freakin’ bird. 
+Just look at that freakin’ bird.
 
 Each time they moved to a new perch they would chatter and squeal in the most delightful way. Just listen to this freakin’ bird:
 
@@ -103,7 +104,7 @@ Here is the male, exciting a giggle from the author:
 
 More sounds and photos can be found on our eBird checklist [here](https://ebird.org/checklist/S74474732).
 
-We spent a couple hours with the quetzals as they worked their way down canyon until they eventually flew to some inaccessible trees further from the road. Later, on our way out, with our windows rolled down, we could hear the quetzals still squealing in the distance. Graced with such things beheld one cannot help but exclaim: What a good bird!
+We spent a couple hours with the quetzals as they worked their way down canyon until they eventually flew to some inaccessible trees further from the road. Later, on our way out, with our windows rolled down, we could hear the quetzals still squealing in the distance. In these situations you just can't help but say: What a good bird!
 
 We decided to hike a nearby trail before the long journey home. We got some beautiful views of Cave Creek Canyon, both of us smiling ear to ear appreciating the excellent birds we had seen and the adventure they inspired us to go on.
 

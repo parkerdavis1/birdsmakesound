@@ -3,27 +3,28 @@ title: Birds Make Sound
 layout: base.njk
 ---
 <div class="index-container">
-    <header>
-        <a href="/"><h1>Birds Make Sound</h1></a>
-    </header>
+    <div class="title">
+        <a href="/"><h1 class="huge-title">Birds Make Sound</h1></a>
+        {# <img src="/" alt="birds make sound handwritten" class="title-home"> #}
+    </div>
+    <p class="subtitle">Explorations of birds, sound, and recording.</p>
+    <div class="all-posts">
+        <h3>All Posts</h3>
+        <ul>
+            {% for blog in collections.blog | reverse%}
+            <li><a href="{{blog.url}}">{{blog.data.title}}</a> <span class="indexDate">{{blog.date|readableDate}}</span></li>
 
-    <div class="index-content">
-        <p>Explorations of birds, sound, and recording.</p>
-        <div class="all-posts">
-            <h3>All Posts</h3>
-            <ul>
-                {% for blog in collections.blog | reverse%}
-                <li><a href="{{blog.url}}">{{blog.data.title}}</a> <span class="date">{{blog.date|readableDate}}</span></li>
-
-                {# {% if blog.data.snippet%}
-                <div><span class="snippet">{{blog.data.snippet}}...</span></div>
-                {% endif %} #}
-                {% endfor %}
-            </ul>
-        </div>
+            {# {% if blog.data.snippet%}
+            <div><span class="snippet">{{blog.data.snippet}}...</span></div>
+            {% endif %} #}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="about">
+        <a href="/about"><h3>About</h3></a>
     </div>
 
-    <footer>
+    {# <footer>
         <a href="/">Birds Make Sound</a>
-    </footer>
+    </footer> #}
 </div>

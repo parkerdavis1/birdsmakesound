@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}}</title>
+    <title>Birds Make Sound | {{title}}</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <style>
@@ -27,26 +27,28 @@
 <body>
     <header>
     <div class="top-bar">
-        <h1><a href="/">birds make sound</a></h1>
-        <nav class="page-nav">
-                {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
-                {%- if nextPost %}
-                    <a href="{{ nextPost.url | url }}">
-                        <div class="nav-item">
-                        ←{{ nextPost.data.title }}
-                        </div>
-                    </a>
-                {% endif %}
+        <h1 class="bms"><a href="/">birds make sound</a></h1>
+        {# <a href="/"><img src="/birdsmakesound2.png" alt="birds make sound handwritten" class="title-image-post"></a> #}
 
-                {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-                {%- if previousPost %}
-                    <a href="{{ previousPost.url | url }}">
-                        <div class="nav-item">
-                        {{ previousPost.data.title }}→
-                        </div>
-                    </a>
-                {% endif %}
-                </nav>
+        <nav class="page-nav">
+            {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+            {%- if nextPost %}
+                <a href="{{ nextPost.url | url }}">
+                    <div class="nav-item">
+                    ←{{ nextPost.data.title }}
+                    </div>
+                </a>
+            {% endif %}
+
+            {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+            {%- if previousPost %}
+                <a href="{{ previousPost.url | url }}">
+                    <div class="nav-item">
+                    {{ previousPost.data.title }}→
+                    </div>
+                </a>
+            {% endif %}
+        </nav>
     </div>
 
     {% if coverImage %}
@@ -101,10 +103,10 @@
         </div>
 
     </main>
-
-    <footer>
+    {% include "footer.njk" %}
+    {# <footer>
         <p><a href="/">Birds Make Sound</a></p>
-    </footer>
+    </footer> #}
     </div>
 
     {# <nav class="site-nav">
