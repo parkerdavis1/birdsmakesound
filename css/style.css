@@ -279,15 +279,13 @@ cite {
     background-position-y: 30%; */
 }
 .bms {
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: var(--primary-600);
     background-image: url('/images/pengo-purp5.jpg');
     background-size: cover;
     background-position-y: 30%;
-}
-.huge-title:hover {
-    /* background-image: url(/images/pengos.png) */
 }
 @keyframes pulse {
     0%,
