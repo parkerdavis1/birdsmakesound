@@ -3,8 +3,14 @@
     <p><a href="/">Home</a></p>
     <p><a href="/about">About</a></p>
     </div>
-    <form id="email-form" name="newsletter" method="POST" data-netlify="true">
-        <label><input type="email" name="email" placeholder="goose@bird.com"></label>
+    <form id="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <div hidden aria-hidden="true">
+            <label>
+            Don’t fill this out if you're human: 
+            <input name="bot-field" />
+            </label>
+        </div>
+        <label><input type="email" name="email" placeholder="Email" required /></label>
         <button type="submit" id="submitButton">Subscribe</button>
     </form>
 </footer>

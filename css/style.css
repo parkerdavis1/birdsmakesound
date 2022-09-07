@@ -267,16 +267,16 @@ cite {
     padding: 1rem;
     /* background-image: linear-gradient(180deg, rgb(255, 123, 0) 0%, rgb(138, 43, 226) 70%); */
     /* background-size: 100% 200%; */
-    border-radius: 0.4rem;
+    /* border-radius: 0.4rem; */
     /* animation: pulse 1s ease-in-out infinite; */
     /* transition: background-position-y 2s ease-in-out; */
 
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-color: var(--primary-600);
     background-image: url('/images/pengo-purp5.jpg');
     background-size: cover;
-    background-position-y: 30%;
+    background-position-y: 30%; */
 }
 .bms {
     -webkit-background-clip: text;
@@ -374,4 +374,7 @@ button:disabled {
 }
 .about-page h1 {
     text-align: center;
+}
+.img-center {
+    margin: 2rem auto 0;
 }
