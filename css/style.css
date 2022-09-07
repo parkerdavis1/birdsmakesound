@@ -366,6 +366,7 @@ button:disabled {
 .about-page {
     margin: 3rem auto 0;
     padding: var(--gap);
+    max-width: var(--text-width);
 }
 .about-page p {
     margin-top: 1rem;

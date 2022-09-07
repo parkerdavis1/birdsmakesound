@@ -108,7 +108,6 @@ module.exports = function(eleventyConfig) {
 
     // eleventyConfig.addNunjucksShortcode("cssBackground", imageCssBackground);
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
-    eleventyConfig.addLiquidShortcode("image", imageShortcode);
     eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
     eleventyConfig.addFilter("readableDate", dateObj => {
