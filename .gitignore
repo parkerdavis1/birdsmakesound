@@ -1,6 +1,9 @@
 node_modules
 converted-images
-_site
 .DS_Store
+.cache
+
+_site
+
 image-resizer.js
 test-images
