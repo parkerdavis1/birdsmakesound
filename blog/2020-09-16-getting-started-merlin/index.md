@@ -1,6 +1,6 @@
 ---
 title: Getting Started | Birding by Ear with Merlin
-date: 2020-09-16
+date: "2020-09-16"
 ---
 
 If you've been reading my blog, maybe my rambling about birds (coupled with a complete lack of public social life and a yearning for brief relief from constant confrontation with the absurd cruelty of present reality) has inspired a bird curiosity. Maybe you've taken note of the birds singing outside and maybe you've even used your phone to record a few minutes of sound. Nice.

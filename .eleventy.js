@@ -111,7 +111,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
     eleventyConfig.addFilter("readableDate", dateObj => {
-        return DateTime.fromJSDate(dateObj).toFormat("MMMM d, yyyy");
+      // console.log("-----DATETIME FROM ISO-----");
+      // console.log(DateTime.fromISO("2022-09-11"));
+      // console.log(DateTime.fromISO("2022-09-11").toFormat("MMMM d, yyyy"));
+
+      return DateTime.fromISO(dateObj).toFormat("MMMM d, yyyy");
+      // return DateTime.fromJSDate(dateObj).toFormat("MMMM d, yyyy");
     })
     return {
         markdownTemplateEngine: "njk",

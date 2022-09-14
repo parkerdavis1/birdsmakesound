@@ -1,6 +1,6 @@
 ---
 title: "The Cornell Guide to Bird Sounds"
-date: 2020-12-07
+date: "2020-12-07"
 coverImage: "blog/2020-12-07-cornell-guide-to-bird-sounds/images/hoodedmegansers.JPG"
 snippet: "I got an exciting email from the Cornell Lab of Ornithology last week"
 ---

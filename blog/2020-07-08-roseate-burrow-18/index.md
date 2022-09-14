@@ -1,6 +1,6 @@
 ---
 title: "Roseate Burrow #18"
-date: 2020-07-08
+date: "2020-07-08"
 coverImage: "blog/2020-07-08-roseate-burrow-18/images/rost-and-chick.png"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Eared Quetzal Trip Report
-date: 2020-11-03
+date: "2020-11-03"
 coverImage: "blog/2020-11-03-eared-quetzal-trip-report/images/quetzalfront.JPG"
 ---
 
@@ -109,6 +109,7 @@ We spent a couple hours with the quetzals as they worked their way down canyon u
 We decided to hike a nearby trail before the long journey home. We got some beautiful views of Cave Creek Canyon, both of us smiling ear to ear appreciating the excellent birds we had seen and the adventure they inspired us to go on.
 
 <div class="center">
-    {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/IMG_6494_Lively-1.gif", "Nell smiling in the Chiricahua Mountains", true %}
+    <!-- {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/IMG_6494_Lively-1.gif", "Nell smiling in the Chiricahua Mountains", true %} -->
+    <img src="./images/IMG_6494_Lively-1.gif" alt="Nell smiling in the Chiricahua Mountains">
     <figcaption>A smiling Nell Smith in the Chiricahua Mountains</figcaption>
 </div>

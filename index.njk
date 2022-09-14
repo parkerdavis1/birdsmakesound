@@ -12,7 +12,7 @@ layout: base.njk
         <h3>All Posts</h3>
         <ul>
             {% for blog in collections.blog | reverse%}
-            <li><a href="{{blog.url}}">{{blog.data.title}}</a> <span class="indexDate">{{blog.date|readableDate}}</span></li>
+            <li><a href="{{blog.url}}">{{blog.data.title}}</a> <span class="indexDate">{{blog.data.date|readableDate}}</span></li>
 
             {# {% if blog.data.snippet%}
             <div><span class="snippet">{{blog.data.snippet}}...</span></div>

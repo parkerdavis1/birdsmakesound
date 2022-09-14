@@ -1,6 +1,6 @@
 ---
 title: Grassland of the Pipit
-date: 2020-08-24
+date: "2020-08-24"
 coverImage: "blog/2020-08-24-grassland-of-the-pipit/images/grass-drag.jpg"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Whitewater Draw Mystery
-date: 2020-06-24
+date: "2020-06-24"
 coverImage: "blog/2020-06-24-whitewater-draw-mystery/images/cranes-fullres.jpg"
 ---
 

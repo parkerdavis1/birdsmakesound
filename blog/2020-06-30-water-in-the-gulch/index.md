@@ -1,6 +1,6 @@
 ---
 title: Water in the Gulch
-date: 2020-06-30
+date: "2020-06-30"
 coverImage: "blog/2020-06-30-water-in-the-gulch/images/CBTH.jpg"
 ---
 
