@@ -55,15 +55,6 @@
 
     {% if coverImage %}
     <div class="cover-image">
-        {% if coverVideo %}
-        <div class="cover-video">
-            <video autoplay muted loop>
-            <source src="{{coverVideo}}"
-                    type="video/mp4">
-            </video>
-        </div>
-        
-        {% endif %}
         {% if altTitle %}
         <h1><a href="#post-start">{{altTitle}}</a></h1>
         {% else %}
@@ -82,7 +73,9 @@
 
 
             <div class="post-content">
+                {# {% if not coverImage %} #}
                 <h2>{{title}}</h2>
+                {# {% endif %} #}
                 <p class="authorDate"><span class="author">{{author}}</span> | <span class="date">{{date | readableDate}}</span></p>
                 
                 {{ content | safe }}
