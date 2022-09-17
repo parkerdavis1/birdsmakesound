@@ -103,6 +103,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('images');
+    eleventyConfig.addPassthroughCopy("**/*.mov");
+    eleventyConfig.addPassthroughCopy("**/*.gif");
 
     eleventyConfig.addNunjucksAsyncShortcode("asyncCssBackground", asyncImageCssBackground);
 
