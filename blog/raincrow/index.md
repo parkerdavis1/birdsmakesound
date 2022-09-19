@@ -38,7 +38,7 @@ Asking around, we found out from the local keepers of bird knowledge (aka friend
 
 After figuring out the weather piece of the puzzle, there was, lucky us, a big snowstorm rolling in on the last day of my visit to Laramie. In the afternoon when the storm was kicking into high gear, Nell and I idled in low, heater on, cruising a dirt road on the north edge of town. Peering out the car windows we found a flock of Horned Larks and picked through them until we found a bird that was not like the others.
 
-<div class="video-container full-width">
+<div class="video-container full-width fade-in">
     <video controls autoplay muted loop loading="lazy">
         <source src="../../videos/lalo-snow.mov"
                     type="video/mp4">

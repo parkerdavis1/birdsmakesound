@@ -387,3 +387,11 @@ button:disabled {
 .img-center {
     margin: 2rem auto 0;
 }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 5s;
+}
+.animate {
+    opacity: 1;
+}
