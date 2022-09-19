@@ -110,6 +110,7 @@ We decided to hike a nearby trail before the long journey home. We got some beau
 
 <div class="center">
     <!-- {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/IMG_6494_Lively-1.gif", "Nell smiling in the Chiricahua Mountains", true %} -->
-    <img src="./images/IMG_6494_Lively-1.gif" alt="Nell smiling in the Chiricahua Mountains">
+    <!-- <img src="./images/IMG_6494_Lively-1.gif" alt="Nell smiling in the Chiricahua Mountains"> -->
+    {% gifImage "blog/2020-11-03-eared-quetzal-trip-report/images/IMG_6494_Lively-1.gif", "Nell smiling in the Chiricahua Mountains" %}
     <figcaption>A smiling Nell Smith in the Chiricahua Mountains</figcaption>
 </div>

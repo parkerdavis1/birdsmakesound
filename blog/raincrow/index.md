@@ -40,7 +40,7 @@ After figuring out the weather piece of the puzzle, there was, lucky us, a big s
 
 <div class="video-container full-width">
     <video controls autoplay muted loop loading="lazy">
-        <source src="./images/lalo-snow.mov"
+        <source src="../../videos/lalo-snow.mov"
                     type="video/mp4">
     </video>
     <figcaption>Lapland Longspur (front) and Horned Lark (back) foraging in the blustery snow.</figcaption>

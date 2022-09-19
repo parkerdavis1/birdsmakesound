@@ -45,6 +45,30 @@ const imageShortcode = async (src, alt, animated=false) => {
   const stringReturn = `<picture> ${source} ${img} </picture>`;
   return stringReturn;
 };
+const gifImage = async (src, alt, classtext) => {
+  if (!alt) {
+    throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+  }
+
+  let options = {
+    widths: [null],
+    formats: [null],
+    urlPath: "/images/",
+    outputDir: "./_site/images/",
+    sharpOptions: {animated: true}
+  }
+
+  let stats = await Image(src, options);
+  let gif = stats["gif"][0];
+  const img = `<img
+  loading="lazy"
+  alt="${alt}"
+  src="${gif.url}"
+  class="${classtext}"
+  >`;
+
+  return img;
+}
 
 // function generateImages(src) {
 //   // let source = path.join(__dirname, "_includes/" , src);
@@ -103,12 +127,15 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('images');
-    eleventyConfig.addPassthroughCopy("**/*.mov");
-    eleventyConfig.addPassthroughCopy("**/*.gif");
+    eleventyConfig.addPassthroughCopy('videos');
+    // eleventyConfig.addPassthroughCopy({"**/*.mov": "blog/raincrow"});
+    // eleventyConfig.addPassthroughCopy({"**/*.gif": "about"});
+    // eleventyConfig.addPassthroughCopy({"**/*.gif": "blog"});
 
     eleventyConfig.addNunjucksAsyncShortcode("asyncCssBackground", asyncImageCssBackground);
 
     // eleventyConfig.addNunjucksShortcode("cssBackground", imageCssBackground);
+    eleventyConfig.addNunjucksAsyncShortcode("gifImage", gifImage);
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
