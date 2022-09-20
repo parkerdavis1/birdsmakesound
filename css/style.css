@@ -106,14 +106,22 @@ main {
     justify-items: center;
     overflow: hidden;
     position: relative;
+    /* border: 2px green solid; */
 }
 .cover-image picture{
     position: absolute;
     width: 100%;
-    top: 50%;
-    transform:translateY(-50%);
+    height: 100%;
     z-index: -1;
     overflow: hidden;
+    /* border: 1px red solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover-image img {
+    min-height: 100%;
+    max-width: none;
 }
 .cover-video {
     position: relative;
