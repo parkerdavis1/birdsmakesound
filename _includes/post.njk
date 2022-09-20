@@ -26,7 +26,7 @@
 <body>
     <header>
     <div class="top-bar">
-        <h1 class="bms"><a href="/">birds make sound</a></h1>
+        <h1 class="bms"><a href="/">BIRDS MAKE SOUND</a></h1>
         {# <a href="/"><img src="/birdsmakesound2.png" alt="birds make sound handwritten" class="title-image-post"></a> #}
 
         <nav class="page-nav">
@@ -125,7 +125,6 @@
     <script>
         const observer = new IntersectionObserver(entries => {
             entries.forEach(entry => {
-                console.log(entry);
                 if (entry.isIntersecting) {
                     entry.target.classList.add('animate');
                 } else {
@@ -142,6 +141,7 @@
             image.style.opacity = 0;
         });
         allPictures.forEach(image => image.addEventListener('load', (event) => {
+            console.log("Image Loaded!");
             event.target.style.opacity="1";
             event.target.style.transition = "opacity 1s";
         }));
