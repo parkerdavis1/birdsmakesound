@@ -138,11 +138,12 @@
 
         const allPictures =  document.querySelectorAll('img');
         allPictures.forEach(image => {
+            // console.log('changed opacity to 0!!!')
             image.style.opacity = 0;
         });
 
         allPictures.forEach(image => image.addEventListener('load', (event) => {
-            console.log("Image Loaded!");
+            // console.log("Image Loaded!");
             event.target.style.opacity="1";
             event.target.style.transition = "opacity 1s";
         }));
@@ -150,7 +151,7 @@
         //Backup if image is loaded from the cache;
         allPictures.forEach(image => {
             if (image.complete) {
-                console.log("The image" + image + "is completely loaded!")
+                // console.log("The image" + image + "is completely loaded!")
                 image.style.opacity="1";
                 image.style.transition = "opacity 1s";
             }

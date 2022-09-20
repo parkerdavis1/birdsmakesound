@@ -3,15 +3,17 @@
     /* border: 1px red solid; */
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora&display=swap');
+
 @font-face {
     font-family: "Whirly Birdie";
     src: url(./fonts/WhirlyBirdieVariable.ttf);
 }
-@font-face {
+/* @font-face {
     font-family: "Lora";
     src: url(./fonts/Lora-VariableFont_wght.ttf);
     font-display: swap;
-}
+} */
 
 :root {
     --text-width: 40rem;
@@ -87,6 +89,7 @@ main {
     margin: 0 auto;
     width: 100%;
 }
+
 
 
 
