@@ -390,7 +390,11 @@ button:disabled {
 
 .fade-in {
     opacity: 0;
-    transition: opacity 5s;
+    transition: opacity 3s 500ms;
+}
+.fade-in-once {
+    opacity: 0;
+    transition: opacity 1s;
 }
 .animate {
     opacity: 1;

@@ -54,7 +54,7 @@
     </div>
 
     {% if coverImage %}
-    <div class="cover-image fade-in">
+    <div class="cover-image fade-in-once">
         {% if altTitle %}
         <h1><a href="#post-start">{{altTitle}}</a></h1>
         {% else %}
@@ -134,9 +134,20 @@
             })
         });
 
-        const animatedElements = document.querySelectorAll(".fade-in");
+        const observerOnce = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                console.log(entry);
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            })
+        });
 
+        const animatedElements = document.querySelectorAll(".fade-in");
         animatedElements.forEach(el => observer.observe(el));
+
+        const animatedOnceElements = document.querySelectorAll(".fade-in-once");
+        animatedOnceElements.forEach(el => observerOnce.observe(el));
     </script>
 </body>
 </html>
