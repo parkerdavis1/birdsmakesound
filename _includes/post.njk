@@ -9,10 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <style>
 
-        {% if coverImage %}
-        {% asyncCssBackground coverImage, ".cover-image" %}
-        {% endif %}
-        .cover-image {
+        {# .cover-image {
             background-repeat: no-repeat;
             background-attachment: scroll;
             background-position: center center;
@@ -20,7 +17,7 @@
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
-        }
+        } #}
         
         {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
 
@@ -54,7 +51,10 @@
     </div>
 
     {% if coverImage %}
-    <div class="cover-image fade-in-once">
+    <div class="cover-image">
+        {# <div class="cover-image-bg"> #}
+            {% image coverImage, "cover image"%}
+        {# </div> #}
         {% if altTitle %}
         <h1><a href="#post-start">{{altTitle}}</a></h1>
         {% else %}
@@ -134,20 +134,19 @@
             })
         });
 
-        const observerOnce = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                console.log(entry);
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                }
-            })
-        });
-
         const animatedElements = document.querySelectorAll(".fade-in");
         animatedElements.forEach(el => observer.observe(el));
 
-        const animatedOnceElements = document.querySelectorAll(".fade-in-once");
-        animatedOnceElements.forEach(el => observerOnce.observe(el));
+        const allPictures =  document.querySelectorAll('img');
+        allPictures.forEach(image => {
+            image.style.opacity = 0;
+        });
+        allPictures.forEach(image => image.addEventListener('load', (event) => {
+            event.target.style.opacity="1";
+            event.target.style.transition = "opacity 1s";
+        }));
+
+
     </script>
 </body>
 </html>

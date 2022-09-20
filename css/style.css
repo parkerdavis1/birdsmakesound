@@ -105,6 +105,16 @@ main {
     display: grid;
     align-items: center;
     justify-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.cover-image picture{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform:translateY(-50%);
+    z-index: -1;
+    overflow: hidden;
 }
 .cover-video {
     position: relative;
@@ -399,3 +409,4 @@ button:disabled {
 .animate {
     opacity: 1;
 }
+
