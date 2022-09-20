@@ -69,7 +69,7 @@ h1 {
     font-family: "Whirly Birdie", Helvetica, Arial, sans-serif;
 }
 h1 {
-    font-size: clamp(1.7rem, 1.5588rem + 0.7529vw, 2.5rem);
+    font-size: clamp(1.5rem, 1.3235rem + 0.9412vw, 2.5rem);
     line-height: 3rem;
 }
 h2,
