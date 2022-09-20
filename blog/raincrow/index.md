@@ -23,7 +23,7 @@ A personal example to demonstrate: In late February 2020, I was visiting Nell in
 
 {% image "blog/raincrow/images/lalo-barcharttrim.png", "Lapland Longspur bar chart for Laramie" %}
 
-Of particular interest was a [2017 observation at Beef Unit](https://ebird.org/checklist/S34793813). 100(!) Lapland Longspurs, 750 Horned Larks and a Golden Eagle at a place called **Beef Unit**? Obviously I had to check this spot out.
+Of particular interest was a [2017 observation at Beef Unit](https://ebird.org/checklist/S34793813). 100 Lapland Longspurs(!), 750 Horned Larks and a Golden Eagle at a place called **Beef Unit**? Obviously I had to check this spot out.
 
 Beef Unit was...not as exciting as I had hoped. I don't remember much; there were some buildings, barns and farm equipment. There may have been some cows but there weren't a memorable amount of cows. At the time of our visit this University of Wyoming facility appeared udderly (*sorry*) lacking in activity – bird, bovine, or otherwise. Our checklist over the course of 25 minutes was as follows:
 [3 Rock Pigeon, 2 Common Raven, 1 Horned Lark, 6 House Sparrows](https://ebird.org/checklist/S64833277). It was hard to reconcile how these two lists could be so wildly different, same location, both in the final weeks of February. *What happened on February 25, 2017 at Beef Unit?*
