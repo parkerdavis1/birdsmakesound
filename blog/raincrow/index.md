@@ -2,6 +2,7 @@
 title: RainCrow
 date: "2022-09-17"
 coverImage: "blog/raincrow/images/snowsage.jpeg"
+description: "RainCrow is a web app to retrieve historical weather observations"
 ---
 Hello again.
 

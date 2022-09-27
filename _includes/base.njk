@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title}}</title>
+    <title>{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound</title>
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
+
+    {% if not description %}
+    {% set description = "Exploration of birds, sound, and recording." %}
+    {% endif %}
+
+    <meta name="description" content="{{ description }}" />
+    <link rel="canonical" href="https://birdsmakesound.com{{ page.url }}" />
+    <meta name="robots" content="index, follow" />
+    <!-- social -->
+    <meta property="og:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound"/>
+    <meta property="og:url" content="https://birdsmakesound.com{{ page.url }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:image" content="{% if coverImage %}{{coverImage}}{% else %}https://birdsmakesound.com/images/social.png"{% endif %} />
+    <meta property="og:type" content="article" />
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="{{description}}" />
+    <meta name="twitter:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound" />
+    <meta name="twitter:site" content="@parkd" />
+    <meta name="twitter:image" content="https://birdsmakesound.com/images/social.png" />
+    <meta name="twitter:creator" content="@parkd" />
     <style>
         {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
     </style>

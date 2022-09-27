@@ -1,35 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birds Make Sound | {{title}}</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <style>
+---
+layout: base.njk
+---
+<header>
+<div class="top-bar">
+    <h1 class="bms"><a href="/">BIRDS MAKE SOUND</a></h1>
+    {# <a href="/"><img src="/birdsmakesound2.png" alt="birds make sound handwritten" class="title-image-post"></a> #}
 
-        {# .cover-image {
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center center;
-            background-size: cover;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-        } #}
-        
-        {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
+    <nav class="page-nav">
+        {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+        {%- if nextPost %}
+            <a href="{{ nextPost.url | url }}">
+                <div class="nav-item">
+                ←{{ nextPost.data.title }}
+                </div>
+            </a>
+        {% endif %}
 
-    </style>
-</head>
-<body>
-    <header>
-    <div class="top-bar">
-        <h1 class="bms"><a href="/">BIRDS MAKE SOUND</a></h1>
-        {# <a href="/"><img src="/birdsmakesound2.png" alt="birds make sound handwritten" class="title-image-post"></a> #}
+        {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+        {%- if previousPost %}
+            <a href="{{ previousPost.url | url }}">
+                <div class="nav-item">
+                {{ previousPost.data.title }}→
+                </div>
+            </a>
+        {% endif %}
+    </nav>
+</div>
 
-        <nav class="page-nav">
+{% if coverImage %}
+<div class="cover-image">
+    {# <div class="cover-image-bg"> #}
+        {% image coverImage, "cover image"%}
+    {# </div> #}
+    {% if altTitle %}
+    <h1><a href="#post-start">{{altTitle}}</a></h1>
+    {% else %}
+    <h1><a href="#post-start">{{title}}</a></h1>
+    {% endif %}
+</div>
+{% endif %}
+</header>
+
+<div class="footer-grid-container">
+<main id="post-start">
+    {# <div>
+        <h1><a href="/">birds make sound</a></h1>
+    </div> #}
+    <div class="post-container">
+
+
+        <div class="post-content">
+            {# {% if not coverImage %} #}
+            <h2>{{title}}</h2>
+            {# {% endif %} #}
+            <p class="authorDate"><span class="author">{{author}}</span> | <span class="date">{{date | readableDate}}</span></p>
+            
+            {{ content | safe }}
+            
+            <nav class="page-nav">
             {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
             {%- if nextPost %}
                 <a href="{{ nextPost.url | url }}">
@@ -37,127 +65,74 @@
                     ←{{ nextPost.data.title }}
                     </div>
                 </a>
+            {% else %}
+                <div></div>
             {% endif %}
 
             {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
             {%- if previousPost %}
-                <a href="{{ previousPost.url | url }}">
-                    <div class="nav-item">
-                    {{ previousPost.data.title }}→
-                    </div>
-                </a>
+                <div class="nav-item">
+                <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}→</a>
+                </div>
+            {% else %}
+                <div></div>
             {% endif %}
-        </nav>
-    </div>
-
-    {% if coverImage %}
-    <div class="cover-image">
-        {# <div class="cover-image-bg"> #}
-            {% image coverImage, "cover image"%}
-        {# </div> #}
-        {% if altTitle %}
-        <h1><a href="#post-start">{{altTitle}}</a></h1>
-        {% else %}
-        <h1><a href="#post-start">{{title}}</a></h1>
-        {% endif %}
-    </div>
-    {% endif %}
-    </header>
-
-    <div class="footer-grid-container">
-    <main id="post-start">
-        {# <div>
-            <h1><a href="/">birds make sound</a></h1>
-        </div> #}
-        <div class="post-container">
-
-
-            <div class="post-content">
-                {# {% if not coverImage %} #}
-                <h2>{{title}}</h2>
-                {# {% endif %} #}
-                <p class="authorDate"><span class="author">{{author}}</span> | <span class="date">{{date | readableDate}}</span></p>
-                
-                {{ content | safe }}
-                
-                <nav class="page-nav">
-                {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
-                {%- if nextPost %}
-                    <a href="{{ nextPost.url | url }}">
-                        <div class="nav-item">
-                        ←{{ nextPost.data.title }}
-                        </div>
-                    </a>
-                {% else %}
-                    <div></div>
-                {% endif %}
-
-                {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
-                {%- if previousPost %}
-                    <div class="nav-item">
-                    <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}→</a>
-                    </div>
-                {% else %}
-                    <div></div>
-                {% endif %}
-                </nav>
-            </div>
-
-
+            </nav>
         </div>
 
-    </main>
-    {% include "footer.njk" %}
-    {# <footer>
-        <p><a href="/">Birds Make Sound</a></p>
-    </footer> #}
+
     </div>
 
-    {# <nav class="site-nav">
-        <p>ALL POSTS:</p>
-        <ul>
-            {% for blog in collections.blog | reverse %}
-            <li><a href="{{blog.url}}">{{blog.data.title}}</a></li>
-            {% endfor %}
-        </ul>
-    </nav> #}
+</main>
+{% include "footer.njk" %}
+{# <footer>
+    <p><a href="/">Birds Make Sound</a></p>
+</footer> #}
+</div>
 
-    <script>
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                } else {
-                    entry.target.classList.remove('animate');
-                }
-            })
-        });
+{# <nav class="site-nav">
+    <p>ALL POSTS:</p>
+    <ul>
+        {% for blog in collections.blog | reverse %}
+        <li><a href="{{blog.url}}">{{blog.data.title}}</a></li>
+        {% endfor %}
+    </ul>
+</nav> #}
 
-        const animatedElements = document.querySelectorAll(".fade-in");
-        animatedElements.forEach(el => observer.observe(el));
-
-        const allPictures =  document.querySelectorAll('img');
-        allPictures.forEach(image => {
-            // console.log('changed opacity to 0!!!')
-            image.style.opacity = 0;
-        });
-
-        allPictures.forEach(image => image.addEventListener('load', (event) => {
-            // console.log("Image Loaded!");
-            event.target.style.opacity="1";
-            event.target.style.transition = "opacity 1s";
-        }));
-
-        //Backup if image is loaded from the cache;
-        allPictures.forEach(image => {
-            if (image.complete) {
-                // console.log("The image" + image + "is completely loaded!")
-                image.style.opacity="1";
-                image.style.transition = "opacity 1s";
+<script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+            } else {
+                entry.target.classList.remove('animate');
             }
         })
+    });
+
+    const animatedElements = document.querySelectorAll(".fade-in");
+    animatedElements.forEach(el => observer.observe(el));
+
+    const allPictures =  document.querySelectorAll('img');
+    allPictures.forEach(image => {
+        // console.log('changed opacity to 0!!!')
+        image.style.opacity = 0;
+    });
+
+    allPictures.forEach(image => image.addEventListener('load', (event) => {
+        // console.log("Image Loaded!");
+        event.target.style.opacity="1";
+        event.target.style.transition = "opacity 1s";
+    }));
+
+    //Backup if image is loaded from the cache;
+    allPictures.forEach(image => {
+        if (image.complete) {
+            // console.log("The image" + image + "is completely loaded!")
+            image.style.opacity="1";
+            image.style.transition = "opacity 1s";
+        }
+    })
 
 
-    </script>
-</body>
-</html>
+</script>
