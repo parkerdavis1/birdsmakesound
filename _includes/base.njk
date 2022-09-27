@@ -11,6 +11,7 @@
     {% if not description %}
     {% set description = "Exploration of birds, sound, and recording." %}
     {% endif %}
+    {% set socialImage = "https://birdsmakesound.com/images/birdsmakesoundsocial.jpg"%}
 
     <meta name="description" content="{{ description }}" />
     <link rel="canonical" href="https://birdsmakesound.com{{ page.url }}" />
@@ -19,14 +20,14 @@
     <meta property="og:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound"/>
     <meta property="og:url" content="https://birdsmakesound.com{{ page.url }}" />
     <meta property="og:description" content="{{ description }}" />
-    <meta property="og:image" content="{% if coverImage %}{{coverImage}}{% else %}https://birdsmakesound.com/images/social.png"{% endif %} />
+    <meta property="og:image" content="{{socialImage}}" />
     <meta property="og:type" content="article" />
     <!-- twitter -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="{{description}}" />
     <meta name="twitter:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound" />
     <meta name="twitter:site" content="@parkd" />
-    <meta name="twitter:image" content="https://birdsmakesound.com/images/social.png" />
+    <meta name="twitter:image" content="{{socialImage}}" />
     <meta name="twitter:creator" content="@parkd" />
     <style>
         {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
