@@ -2,7 +2,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img")
 
-const imageShortcode = async (src, alt, animated=false) => {
+const imageShortcode = async (src, alt, lazy=true) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
@@ -12,11 +12,6 @@ const imageShortcode = async (src, alt, animated=false) => {
     formats: ["webp", "jpeg", null],
     urlPath: "/images/",
     outputDir: "./_site/images/"
-  }
-
-  //if animated GIF, include true parameter
-  if (animated) {
-    options['sharpOptions'] = {animated: true}
   }
 
   let stats = await Image(src, options);
@@ -34,17 +29,27 @@ const imageShortcode = async (src, alt, animated=false) => {
   );
 
   const source = `<source type="image/webp" srcset="${srcset["webp"]}">`;
-
-  const img = `<img
+  let img = ''
+  if (lazy) {
+    img = `<img
     loading="lazy"
     alt="${alt}"
     src="${lowestSrc.url}"
     sizes='100vw'
     srcset="${srcset["jpeg"]}">`;
+  } else {
+    img = `<img
+    alt="${alt}"
+    src="${lowestSrc.url}"
+    sizes='100vw'
+    srcset="${srcset["jpeg"]}">`;
+  }
+
   
   const stringReturn = `<picture> ${source} ${img} </picture>`;
   return stringReturn;
 };
+
 const gifImage = async (src, alt, classtext) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);

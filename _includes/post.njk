@@ -30,7 +30,7 @@ layout: base.njk
 {% if coverImage %}
 <div class="cover-image">
     {# <div class="cover-image-bg"> #}
-        {% image coverImage, "cover image"%}
+        {% image coverImage, "cover image", false %}
     {# </div> #}
     {% if altTitle %}
     <h1><a href="#post-start">{{altTitle}}</a></h1>
