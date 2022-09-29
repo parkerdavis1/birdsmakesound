@@ -163,9 +163,11 @@ video {
 
 }
 .page-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 1rem;
     padding-right: 1rem;
 }
@@ -173,6 +175,7 @@ video {
     /* border: 1px solid var(--shadow-color); */
     border-radius: 5px;
     padding: 0 0.5rem;
+    overflow-wrap: break-word;
 }
 .nav-item:hover {
     background-color: white;

@@ -71,9 +71,10 @@ layout: base.njk
 
             {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
             {%- if previousPost %}
+                <a href="{{ previousPost.url | url }}">
                 <div class="nav-item">
-                <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}→</a>
-                </div>
+                {{ previousPost.data.title }}→
+                </div></a>
             {% else %}
                 <div></div>
             {% endif %}
