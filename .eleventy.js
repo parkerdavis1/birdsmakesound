@@ -104,11 +104,11 @@ const gifImage = async (src, alt, classtext) => {
 //   return markup.join("");
 // }
 
-// my attempt at async version of imageCSSbackground
+// async version of imageCSSbackground
 const asyncImageCssBackground = async(src, selector) => {
   let options = {
-    widths: [1000, 2000],
-    formats: ['jpeg',],
+    widths: [600, 1000, 2000],
+    formats: ['jpeg', 'webp'],
     outputDir: "./_site/images",
     urlPath: "/images/",
     useCache: true,
@@ -119,12 +119,15 @@ const asyncImageCssBackground = async(src, selector) => {
   };
 
   const metadata = await Image(src, options);
-  let markup = [`${selector} { background-image: url(${metadata.jpeg[0].url});} `];
-  // I use always jpeg for backgrounds
-  metadata.jpeg.slice(1).forEach((image, index) => {
-    markup.push(`@media (min-width: ${metadata.jpeg[index].width}px) { ${selector} {background-image: url(${image.url});}}`);
-  });
-  return markup.join("");
+
+  let markup = [];
+  Object.values(metadata).map(imageFormat => {
+    markup.push(`${selector} { background-image: url(${imageFormat[0].url});} `);
+    imageFormat.slice(1).forEach((image, index) => {
+      markup.push(`@media (min-width: ${imageFormat[index].width}px) { ${selector} {background-image: url(${image.url});}}`);
+    });
+  })
+  return markup.join("\n");
 }
 
 
@@ -133,24 +136,15 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('videos');
-    // eleventyConfig.addPassthroughCopy({"**/*.mov": "blog/raincrow"});
-    // eleventyConfig.addPassthroughCopy({"**/*.gif": "about"});
-    // eleventyConfig.addPassthroughCopy({"**/*.gif": "blog"});
 
     eleventyConfig.addNunjucksAsyncShortcode("asyncCssBackground", asyncImageCssBackground);
 
-    // eleventyConfig.addNunjucksShortcode("cssBackground", imageCssBackground);
     eleventyConfig.addNunjucksAsyncShortcode("gifImage", gifImage);
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
     eleventyConfig.addFilter("readableDate", dateObj => {
-      // console.log("-----DATETIME FROM ISO-----");
-      // console.log(DateTime.fromISO("2022-09-11"));
-      // console.log(DateTime.fromISO("2022-09-11").toFormat("MMMM d, yyyy"));
-
       return DateTime.fromISO(dateObj).toFormat("MMMM d, yyyy");
-      // return DateTime.fromJSDate(dateObj).toFormat("MMMM d, yyyy");
     })
     return {
         markdownTemplateEngine: "njk",
