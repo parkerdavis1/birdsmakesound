@@ -6,22 +6,18 @@ layout: base.njk
     <h1 class="bms"><a href="/">BIRDS MAKE SOUND</a></h1>
     {# <a href="/"><img src="/birdsmakesound2.png" alt="birds make sound handwritten" class="title-image-post"></a> #}
 
-    <nav class="page-nav">
+    <nav class="page-nav-top">
         {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
         {%- if nextPost %}
-            <a href="{{ nextPost.url | url }}">
-                <div class="nav-item">
+            <a href="{{ nextPost.url | url }}" class="nav-item">
                 ←{{ nextPost.data.title }}
-                </div>
             </a>
         {% endif %}
 
         {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
         {%- if previousPost %}
-            <a href="{{ previousPost.url | url }}">
-                <div class="nav-item">
+            <a href="{{ previousPost.url | url }}" class="nav-item">
                 {{ previousPost.data.title }}→
-                </div>
             </a>
         {% endif %}
     </nav>
@@ -60,10 +56,8 @@ layout: base.njk
             <nav class="page-nav">
             {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
             {%- if nextPost %}
-                <a href="{{ nextPost.url | url }}">
-                    <div class="nav-item">
+                <a href="{{ nextPost.url | url }}" class="nav-item">
                     ←{{ nextPost.data.title }}
-                    </div>
                 </a>
             {% else %}
                 <div></div>
@@ -71,10 +65,9 @@ layout: base.njk
 
             {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
             {%- if previousPost %}
-                <a href="{{ previousPost.url | url }}">
-                <div class="nav-item">
+                <a href="{{ previousPost.url | url }}" class="nav-item">
                 {{ previousPost.data.title }}→
-                </div></a>
+                </a>
             {% else %}
                 <div></div>
             {% endif %}
