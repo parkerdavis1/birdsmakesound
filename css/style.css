@@ -319,10 +319,10 @@ video {
 .post-content > .page-nav {
     margin-top: 5rem;
 }
-/* .nav-item:last-of-type {
+.nav-item:last-of-type {
     width:fit-content;
     text-align: right;
-} */
+}
 .site-nav {
     display: none;
 }
@@ -452,6 +452,9 @@ cite {
     background-size: cover;
     background-position-y: 30%;
     white-space: nowrap;
+    font-size: clamp(1.4rem, 1.1905rem + 1.0476vw, 2.5rem);
+}
+.bms h1 {
 }
 @keyframes pulse {
     0%,
