@@ -1,0 +1,28 @@
+<header>
+    <h1 class="bms"><a href="/">BIRDS MAKE SOUND</a></h1>
+    {# <a href="/"><img src="/birdsmakesound2.png" alt="birds make sound handwritten" class="title-image-post"></a> #}
+    <input type="checkbox" class="nav-toggle" id="nav-toggle">
+    <nav class="nav-top">
+        {# <label for="posts-toggle" class="posts-toggle-label">Posts </label> #}
+        {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+        {%- if nextPost %}
+            <a href="{{ nextPost.url | url }}" class="nav-item">
+                ←{{ nextPost.data.title }}
+            </a>
+        {% endif %}
+
+        {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+        {%- if previousPost %}
+            <a href="{{ previousPost.url | url }}" class="nav-item">
+                {{ previousPost.data.title }}→
+            </a>
+        {% endif %}
+        <a href="/" class="nav-desk-hide">All Posts</a>
+        <a href="/about/" class="nav-desk-hide">About</a>
+    </nav>
+    <div class="nav-toggle-label-container">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </div>
+</header>
