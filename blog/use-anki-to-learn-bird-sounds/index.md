@@ -1,25 +1,28 @@
 ---
-title: How to learn bird sounds with Anki
+title: How to use Anki to learn bird sounds
 date: "2022-10-09"
 coverImage: "images/anki/hero-grackle.jpg"
 description: "Using batch media imports, you can quickly create custom Anki decks to efficiently learn bird sounds."
 ---
 
-<a href="#howto"><button>Skip to "How To" section</button></a>
+<a href="#howto"><button style="padding: 5px 15px;">Skip to "How To" section</button></a>
 
-<br>
+Maybe you have a season of point counts coming up. Maybe you're travelling to a new state or country with unfamiliar birds. Maybe you're just tired of all your ear birder pals seeing all the birds before you do.
 
-There are [many resources](/blog/2020-09-16-getting-started-merlin#recs) available for those interested in ear birding and learning bird sounds. I really like [Larkwire](https://www.larkwire.com/) but you are limited to the built-in sounds. Shuffling mp3s works for some people but I have never had much lasting success with this method.
+You've just gotta learn those bird sounds.
 
-Enter [Anki](https://apps.ankiweb.net/). Anki is free flashcard software that is built around the concept of spaced repetition – basically an efficient way of spacing active recall to aid in memory retention.
+As I wrote before, there are [many resources](/blog/2020-09-16-getting-started-merlin#recs) available for those interested in ear birding and learning bird sounds. I really like [Larkwire](https://www.larkwire.com/)'s interface but you are limited to the built-in sounds. Shuffling mp3s works for some people but I have never had much lasting success with this method.
+
+Enter [Anki](https://apps.ankiweb.net/). Anki is free flashcard software that is built around the concept of spaced repetition – basically an efficient way of spacing active recall to aid in long-term memory retention.
 
 One of the best features of Anki, for our purposes, is the ability to embed media into your flash cards, specifically sound files. The "front" of the card can be an audio file that automatically plays while the "back" of the card would be the name of the bird. You can create "decks" of specific species you want to study and, for example, finally nail down all the different calls of western hummingbirds.
 
 My initial excitement at the discovery of Anki was tempered by the tedious process of having to create an individual flashcard for every sound file you want to include in your deck. For example: to study a group of four species, each with 5 sound files, would mean creating 20 individual cards. Imagine having to study 100 species...
 
-**BUT!** as I recently found out, the Anki community has created [numerous "add-ons"](https://ankiweb.net/shared/addons/2.1) that add functionality to Anki. The [Media Import](https://ankiweb.net/shared/info/1531997860) add-on allows you to automatically create a deck of flashcards from a folder of sound files. By default it creates a card for each sound file, with the audio on the front and the file name on the back, so if your sound files have the bird's name in the title, you're good to go!
+***BUT!*** 
+As I recently found out, the Anki community has created [numerous "add-ons"](https://ankiweb.net/shared/addons/2.1) that add functionality to Anki. The [Media Import](https://ankiweb.net/shared/info/1531997860) add-on allows you to automatically create a deck of flashcards from a folder of sound files. By default it creates a card for each sound file, with the audio on the front and the file name on the back, so as long as your sound files have the bird's name in the title, you're good to go!
 
-Anki is apparently pretty popular with medical and law students, but I've never heard of birders using it for learning bird sounds. For when you want to use your own sound files, I think it is a solid option for the ear birder to have in their arsenal. 
+Anki is apparently pretty popular with medical and law students, but I've never heard of birders using it for learning bird sounds. The interface doesn't *wow* you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface.  Whether you’re a point count tech or traveling birder preparing for a season abroad or any type of exacting bird sound aficionado – when you want to use your own sound files, Anki is a great option to have in your toolbox.
 
 So lets get to it!
 
@@ -27,7 +30,8 @@ So lets get to it!
 
 <h2 id="howto">How to batch import bird sounds into Anki</h2>
 
-Here are the steps we'll be covering:
+<section style="background: white;padding: 10px 20px;border: black 1px solid; line-height:2rem;">
+
 - [Installing Anki](#installing-anki)
 - [Installing Media Import Add-on](#media-import)
 - [Gathering sound files](#sound-files)
@@ -35,11 +39,13 @@ Here are the steps we'll be covering:
 - [Anki basics](#anki-basics)
 - [Onward!](#onward)
 
+</section>
+
 <br>
 
 <h3 id="installing-anki">Installing Anki</h3>
 
-First [download Anki](https://apps.ankiweb.net/) from their website by clicking on the big blue download button.
+First go to [https://apps.ankiweb.net/](https://apps.ankiweb.net/) and click on the big blue download button.
 
 {% image "images/anki/anki-download1.png", "Anki Homepage Screenshot", "small-image img-center" %}
 
@@ -59,7 +65,7 @@ When you open Anki, it will look something like this:
 
 <h3 id="media-import">Installing Media Import Add-on</h3>
 
-Now we need to install the Media Import Add-on, which can be found [here](https://ankiweb.net/shared/info/1531997860). In the **Download** section there is a download code box which at the time of writing is:  1531997860
+Now we need to install the Media Import Add-on, which can be found [here](https://ankiweb.net/shared/info/1531997860). After an introduction to the add-on there is a **Download** section with a download code which you should copy.
 
 {% image "images/anki/batch-media-download.png", "Add-on Download Screenshot", "small-image img-center" %}
 
@@ -89,13 +95,13 @@ Once you have the sound files you want to study together, gather them into a fol
 
 <h3 id="batch-import">Batch import files to create a study deck</h3>
 
-Now when you go to the **Tools** menu in Anki, click on the new option **Media Import...**
+Now when you go to the **Tools** menu in Anki, click on the newly added **Media Import...**
 
-For **Media directory**, click on **browse** and select the folder with your sound files. There are some options you can explore but I use the default *Basic* note type with Front: *Media* and Back: *File Name*. Click **OK** to create the new deck.
+For **Media directory** click on **browse** and select the folder with your sound files. There are some options you can explore but I use the default *Basic* note type with Front: *Media* and Back: *File Name*. Click **OK** to create the new deck.
 
 {% image "images/anki/import-sounds.png", "Import Sound Files Screenshot", "small-image img-center" %}
 
-A message pops up explaining that it created a new deck from your files. There will be a new deck named **MediaImport** on the Anki home screen. You can then rename the deck by clicking the cog button to the right of the name, and **rename**.
+A message pops up explaining that it created a new deck from your files. There will be a new deck named **MediaImport** on the Anki home screen. You can rename the deck by clicking the cog button to the right of the name, then **rename**.
 
 {% image "images/anki/rename-deck.png", "Anki Rename Deck Screenshot", "small-image img-center" %}
 
@@ -115,16 +121,18 @@ It should start playing a random sound. Once you think you know what it is, pres
 
 {% image "images/anki/back-card.png", "Example back of card screenshot", "small-image img-center" %}
 
-You can then choose how confident you are that you know that sound by clicking one of the four buttons at the bottom. If you did not know the sound, you can click **Again** (or press **1** on your keyboard) and Anki will play the sound for you again in less than a minute. If you got it right but don't feel confident you can click **Hard** (or press **2** on the keyboard). If you got it right but wouldn't mind being tested again soon you can click **Good** (or press **3** on your keyboard). If you feel like you know it really well, you can click **Easy** (or press **4** on your keyboard) and Anki will not test you on that sound for 4 days.
+After you reveal the answer there are four buttons to indicate your confidence. There are times indicated above each button indicating how long before Anki will test you on that sound again. You can click them or use your keyboard to press **1-4** for **Again, Hard, Good,** and **Easy**.
 
-As you keep working with the deck, it will test you more often on the sounds that you are less confident about. This way you will spend much more time working on sounds that you don't yet know instead of confirming easy sounds that you do know.
+As you keep working with the deck, it will test you more often on the sounds that you are less confident about. This way you spend more time working on sounds you don't yet know instead of endlessly confirming sounds that you do.
 
 <br>
 
 <h2 id="onward">Onward!</h2>
 
-Other ideas for enhancing the Anki card experience would be to install the [Batch Editing](https://ankiweb.net/shared/info/291119185) add-on then add images and spectrograms to your cards.
+You can create as many decks as you want with any variation of sounds you can dream of, whether it be a group of similar sounding calls from various species or an overview of a specific habitat.
 
-I've got project ideas on the backburner that would optimize the learning of bird sounds even more but I'll leave that for another post.
+To enhance the Anki card experience you could install the [Batch Editing](https://ankiweb.net/shared/info/291119185) add-on and add images and spectrograms to your audio cards. You can also use Anki to test yourself on visual identification e.g. import a set of photos of hawks in flight.
 
-Happy Birding!
+Anki is a good free tool with a lot of flexibility. That being said there is room for improvement and I've got project ideas simmering that would optimize learning bird sounds even more but... I'll leave that for another post.
+
+Let me know what your favorite ways to learn bird sounds are via web mentions – or just send me a dang email, why not: parker@birdsmakesound.com
