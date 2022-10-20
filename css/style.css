@@ -229,6 +229,9 @@ video {
 .full-width {
     margin: 4rem auto;
 }
+.small-image {
+    max-width: 75%;
+}
 blockquote {
     margin-left: 2rem;
 }
@@ -254,9 +257,14 @@ iframe{
 .align-right {
     text-align: right;
 }
-.post-container img,
-.post-container iframe {
-    box-shadow: 3px 3px 0px 1px var(--shadow-color);
+.post-container picture,
+.post-container iframe,
+video {
+    box-shadow: -10px 10px 0px 0px var(--shadow-color);
+    /* margin-bottom: 0.5rem; */
+}
+.no-shadow {
+    box-shadow: none !important;
 }
 figcaption,
 .authorDate,
@@ -273,7 +281,10 @@ a {
     text-decoration: none;
 }
 cite {
-    font-size: .8rem;
+    font-size: 0.8rem;
+}
+aside {
+    font-size: 0.8rem;
 }
 
 
@@ -408,7 +419,7 @@ button:disabled {
     text-align: center;
 }
 .img-center {
-    margin: 2rem auto 0;
+    margin: 2rem auto 2rem;
 }
 
 .fade-in {
