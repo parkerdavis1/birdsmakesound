@@ -19,14 +19,7 @@
     --text-width: 40rem;
     --gap: min(1.5rem, 2vw);
 
-    --shadow-color: rgba(0, 0, 255, .2);
-    /* --shadow-color: var(--primary-300); */
-    --shadow-color-dark: rgba(138, 43, 226, 0.5);
-    /* --shadow-color-dark: var(--primary-400); */
-    --background-color: rgba(244, 250, 255, 0.95);
-    --background-color-light: rgb(250, 248, 255);
-    /* --link-color: rgb(138, 43, 226); */
-    --link-color: var(--primary-600);
+
 
     --primary-900: hsla(260, 66%, 23%, 1);
     --primary-800: hsla(261, 59%, 30%, 1);
@@ -59,6 +52,25 @@
     --acc-prim-700: #5D5C77;
     --acc-prim-800: #4B495D;
     --acc-prim-900: #3B3948;
+
+
+
+
+    --shadow-color: rgba(0, 0, 255, .2);
+    /* --shadow-color: var(--primary-300); */
+    --shadow-color-dark: rgba(138, 43, 226, 0.5);
+    /* --shadow-color-dark: var(--primary-400); */
+    --background-color: rgba(244, 250, 255, 0.95);
+
+    --background-color-dark: rgb(40, 40, 40);
+    --background-color-darkish: rgb(50, 50, 50);
+    --link-color-dark: hsla(267, 100%, 86%, 1);
+
+    --background-color-light: rgb(250, 248, 255);
+    /* --link-color: rgb(138, 43, 226); */
+    --link-color: var(--primary-600);
+
+
 }
 body {
     font-family: Inter, Roboto, Arial, Helvetica, sans-serif;
@@ -97,7 +109,7 @@ main {
 /* ----- NAV -----  */
 header {
     text-align: center;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     position: absolute;
     z-index: 10;
     width: 100%;
@@ -561,3 +573,63 @@ button:disabled {
     opacity: 1;
 }
 
+/* ----- DARK MODE ----- */
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--background-color-dark);
+        color: white;
+    }
+
+    .index-container {
+        background-color: var(--background-color-dark);
+    }
+
+    iframe {
+        background-color: var(--background-color);
+    }
+
+    a {
+        color: var(--link-color-dark);
+    }
+
+    .nav-item:hover {
+        background-color: var(--background-color-darkish);
+    }
+
+    .quote-largetext {
+        background-color: var(--background-color-darkish);
+    }
+
+    header .bms,
+    .huge-title.bms {
+        background-color: var(--link-color-dark);
+        background-image: none;
+    }
+
+    footer {
+        background-color: var(--background-color-darkish);
+    }
+    
+    footer input {
+        background-color: var(--background-color-dark);
+        color: white;
+        border: 1px white solid;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0.5rem;
+    }
+    footer ::placeholder {
+        color: white;
+        opacity: .7;
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        background-color: var(--link-color-dark);
+    }
+
+    .nav-top {
+        background-color: var(--background-color-dark);
+    }
+
+}
