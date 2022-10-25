@@ -31,6 +31,9 @@
     <meta name="generator" content="{{ eleventy.generator }}">
     <style>
         {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
+        @media screen and (prefers-color-scheme: dark) {
+            {% asyncCssBackground "images/pengo-darkmode.jpg", ".bms" %}
+        }
     </style>
     <!-- Matomo -->
     <script>

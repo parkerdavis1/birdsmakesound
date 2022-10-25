@@ -59,7 +59,7 @@
     /* --shadow-color: rgba(0, 0, 255, .2); */
     --shadow-color: #c3c8ff;
     /* --shadow-color: var(--primary-300); */
-    --shadow-color-dark: rgba(138, 43, 226, 0.5);
+    --shadow-color-dark: #9B5FE3;
     /* --shadow-color-dark: var(--primary-400); */
     --background-color: rgba(244, 250, 255, 0.95);
 
@@ -646,7 +646,7 @@ button:disabled {
     header .bms,
     .huge-title.bms {
         background-color: var(--link-color-dark);
-        background-image: none;
+        /* background-image: none; */
     }
 
     footer {
