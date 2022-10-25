@@ -70,7 +70,7 @@ Now we need to install the Media Import Add-on which can be found [here](https:/
 
 {% image "images/anki/batch-media-download.png", "Add-on Download Screenshot", "small-image img-center" %}
 
-In Anki, go to the **Tools** menu -> **Add-ons** -> **Get Add-ons...** paste in the code and click **OK**.
+In Anki, go to the **Tools** menu → **Add-ons** → **Get Add-ons...** paste in the code and click **OK**.
 
 {% image "images/anki/install-add-on.png", "Install Add-on Screenshot", "small-image img-center" %}
 
@@ -137,4 +137,4 @@ To enhance the Anki card experience you could install the [Batch Editing](https:
 
 Anki is a good free tool with a lot of flexibility. That being said, for the task of learning bird sounds there is still room for improvement and I've got project ideas simmering that would optimize learning bird sounds even more but... I'll leave that for another post.
 
-Let me know your favorite ways to learn bird sounds -> [parker@birdsmakesound.com](mailto:parker@birdsmakesound.com)
+Let me know your favorite ways to learn bird sounds → [parker@birdsmakesound.com](mailto:parker@birdsmakesound.com)

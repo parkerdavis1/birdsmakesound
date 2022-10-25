@@ -56,7 +56,8 @@
 
 
 
-    --shadow-color: rgba(0, 0, 255, .2);
+    /* --shadow-color: rgba(0, 0, 255, .2); */
+    --shadow-color: #c3c8ff;
     /* --shadow-color: var(--primary-300); */
     --shadow-color-dark: rgba(138, 43, 226, 0.5);
     /* --shadow-color-dark: var(--primary-400); */
@@ -457,12 +458,6 @@ ol li {
     border: black 1px solid; 
     line-height:2rem;
 }
-@media screen and (prefers-color-scheme: dark) {
-    nav-box {
-        background-color: var(--background-color-darkish);
-    }
-}
-
 
       
 
@@ -679,5 +674,17 @@ button:disabled {
     .nav-top {
         background-color: var(--background-color-dark);
     }
+
+    .nav-box,
+    aside {
+        background-color: var(--background-color-darkish);
+    }
+    .post-container picture,
+    .post-container iframe,
+    video {
+        box-shadow: -10px 10px 0px 0px var(--shadow-color-dark);
+        opacity: 0.8;
+    }
+
 
 }
