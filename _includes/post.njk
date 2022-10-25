@@ -9,12 +9,15 @@ layout: base.njk
     {% if coverImage %}
 <div class="cover-image">
     {# <div class="cover-image-bg"> #}
-        {% image coverImage, "cover image", false %}
+        {% image coverImage, "cover image", "", false %}
     {# </div> #}
     {% if altTitle %}
     <h1><a href="#post-start">{{altTitle}}</a></h1>
     {% else %}
     <h1><a href="#post-start">{{title}}</a></h1>
+    {% endif %}
+    {% if coverImageAttr %}
+    <div class="cover-image-attr"><a href="{{coverImageAttrLink}}">Photo: {{coverImageAttr}}</a></div>
     {% endif %}
 </div>
 {% endif %}

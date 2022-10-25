@@ -3,6 +3,8 @@ title: "The Cornell Guide to Bird Sounds"
 date: "2020-12-07"
 coverImage: "blog/2020-12-07-cornell-guide-to-bird-sounds/images/hoodedmegansers.JPG"
 snippet: "I got an exciting email from the Cornell Lab of Ornithology last week"
+coverImageAttr: Nell Smith
+coverImageAttrLink: "https://nellsmithwriter.com"
 ---
 
 I got an exciting email from the Cornell Lab of Ornithology last week. They are using 19 of my bird recordings for an updated version of their [Cornell Guide to Bird Sounds: United States and Canada](https://www.macaulaylibrary.org/product/the-cornell-guide-to-bird-sounds-us-and-canada/) as well as a future update of the [Merlin app](https://merlin.allaboutbirds.org/). Over the past couple years I’ve uploaded over 400 recordings to eBird so 19 may not seem like much but with over 450,000 bird recordings from the United States and Canada in the Macaulay Library, the fact that 19 of my recordings capture something unique or especially clearly is satisfying.

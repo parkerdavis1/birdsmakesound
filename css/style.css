@@ -255,6 +255,14 @@ header h1 {
     position: relative;
     /* border: 2px green solid; */
 }
+.cover-image-attr {
+    /* display: block; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+
+}
 .cover-image h1 {
     z-index: 2;
 }
@@ -296,6 +304,9 @@ video {
     }
     .indexDate {
         display: block;
+    }
+    .cover-image-attr {
+        font-size: 0.8rem;
     }
 }
 .cover-image h1 {
