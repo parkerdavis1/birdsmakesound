@@ -616,14 +616,14 @@ button:disabled {
 }
 
 .fade-in {
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 3s 500ms;
 }
 .fade-in-once {
-    opacity: 0;
+    /* opacity: 0; */
     transition: opacity 1s 1s;
 }
-.animate {
+.fade-in.animate {
     opacity: 1;
 }
 

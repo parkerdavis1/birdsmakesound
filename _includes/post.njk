@@ -79,14 +79,19 @@ layout: base.njk
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('animate');
+                // entry.target.classList.add('animate');
+                entry.target.style.opacity = 1;
             } else {
-                entry.target.classList.remove('animate');
+                // entry.target.classList.remove('animate');
+                entry.target.style.opacity = 0;
             }
         })
     });
 
     const animatedElements = document.querySelectorAll(".fade-in");
+    animatedElements.forEach(el => {
+        el.style.opacity = 0;
+    })
     animatedElements.forEach(el => observer.observe(el));
 
     const allPictures =  document.querySelectorAll('img');
