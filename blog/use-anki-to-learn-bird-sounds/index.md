@@ -1,6 +1,6 @@
 ---
 title: How to use Anki to learn bird sounds
-date: "2022-10-24"
+date: "2022-10-25"
 coverImage: "images/anki/hero-grackle.jpg"
 description: "Using batch media imports, you can quickly create custom Anki decks to efficiently learn any bird sound."
 ---
@@ -23,7 +23,7 @@ My initial excitement at the discovery of Anki was tempered by the tedious proce
 
 Anki is popular with medical and law students, but I've never heard of birders using it for learning bird sounds. The interface doesn't *wow* you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface. There are also mobile versions of the app with the ability to sync your data across devices.
 
-Whether you're a new or traveling birder, point count tech, or any variety of bird sound aficionado – when you want to use your own sound files, Anki is a great option to have in your toolbox.
+With a winning combination of flexibility and efficiency, birders of any experience level would benefit from having Anki in their toolbox. 
 
 So lets get to it!
 
@@ -66,7 +66,7 @@ When you open Anki, it will look something like this:
 
 <h3>Installing Media Import Add-on</h3>
 
-Now we need to install the Media Import Add-on which can be found [here](https://ankiweb.net/shared/info/1531997860). After perusing the introduction, scroll down to the **Download** section and copy the given download code.
+Now we need to install the **Media Import**  Add-on which can be found [here](https://ankiweb.net/shared/info/1531997860). After perusing the introduction, scroll down to the **Download** section and copy the given download code.
 
 {% image "images/anki/batch-media-download.png", "Add-on Download Screenshot", "small-image img-center" %}
 
