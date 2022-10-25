@@ -7,7 +7,7 @@ description: "Using batch media imports, you can quickly create custom Anki deck
 
 <a href="#howto"><button style="padding: 5px 15px;">Skip to "How To" section</button></a>
 
-Maybe you're new to birding or travelling somewhere with unfamiliar birds. Maybe you have a season of point counts coming up. Maybe you're just tired of all your ear birder pals finding all the birds before you do.
+Maybe you're new to birding or traveling somewhere with unfamiliar birds. Maybe you have a season of point counts coming up. Maybe you're just tired of all your ear birder pals finding all the birds before you do.
 
 You've just gotta learn those bird sounds.
 
@@ -21,7 +21,7 @@ My initial excitement at the discovery of Anki was tempered by the tedious proce
 
 ...***BUT!*** I recently found out the Anki community has created [numerous "add-ons"](https://ankiweb.net/shared/addons/2.1) that add functionality to Anki. The [Media Import](https://ankiweb.net/shared/info/1531997860) add-on allows you to automatically create a deck of flashcards from a folder of sound files. By default it creates a card for each sound file with audio on the front and the file name on the back, so as long as your sound files have the bird's name in the title, you're good to go!
 
-Anki is popular with medical and law students, but I've never heard of birders using it for learning bird sounds. The interface doesn't ***wow*** you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface. There are also mobile versions of the app with the ability to sync your data across devices.
+Anki is popular with medical and law students, but I've never heard of birders using it for learning bird sounds. The interface doesn't *wow* you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface. There are also mobile versions of the app with the ability to sync your data across devices.
 
 Whether you're a new or traveling birder, point count tech, or any variety of bird sound aficionado – when you want to use your own sound files, Anki is a great option to have in your toolbox.
 
@@ -66,7 +66,7 @@ When you open Anki, it will look something like this:
 
 <h3>Installing Media Import Add-on</h3>
 
-Now we need to install the Media Import Add-on which can be found [here](https://ankiweb.net/shared/info/1531997860). After perusing the introduction, scroll down to the **Download** section and copy the given download code (it is 1531997860 at the time of writing).
+Now we need to install the Media Import Add-on which can be found [here](https://ankiweb.net/shared/info/1531997860). After perusing the introduction, scroll down to the **Download** section and copy the given download code.
 
 {% image "images/anki/batch-media-download.png", "Add-on Download Screenshot", "small-image img-center" %}
 
@@ -121,7 +121,7 @@ Now you are ready to study some bird sounds!
 
 From the home screen, click on the name of the deck you want to study, then click the **Study Now** button. 
 
-It should start playing a random sound. Once you think you know what it is, press **spacebar** to show the back of the card which will be the sound file name.
+It should start playing a random sound. Once you think you know what it is, press **space bar** to show the back of the card which will be the sound file name.
 
 {% image "images/anki/back-card.png", "Example back of card screenshot", "small-image img-center" %}
 
