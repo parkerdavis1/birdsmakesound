@@ -16,7 +16,7 @@
 } */
 
 :root {
-    --text-width: 40rem;
+    --text-width: 35rem;
     --gap: min(1.5rem, 2vw);
 
     --shadow-color: rgba(0, 0, 255, .2);
@@ -64,6 +64,7 @@ body {
     font-family: Inter, Roboto, Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.8rem;
+    color: #111111;
 }
 h1 {
     font-family: "Whirly Birdie", Helvetica, Arial, sans-serif;
@@ -285,7 +286,41 @@ cite {
 }
 aside {
     font-size: 0.8rem;
+    background-color: var(--background-color-light);
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
 }
+ol li {
+    list-style: decimal;
+}
+/* .text-fade {
+    color: #000000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.text-fade.out {
+    background-image: -webkit-linear-gradient(0deg, #000000 0%, transparent 100%);
+}
+.text-fade.in {
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, transparent 100%);
+} */
+.nav-box {
+    background-color: white;
+    padding: 10px 20px;
+    border: black 1px solid; 
+    line-height:2rem;
+}
+@media screen and (prefers-color-scheme: dark) {
+    nav-box {
+        background-color: var(--background-color-darkish);
+    }
+}
+
+
+      
 
 
 
@@ -362,6 +397,8 @@ aside {
 .title-image-post {
     max-height: 70px;
 }
+
+
 /* ----- FOOTER ----- */
 footer {
     /* margin-top: 4rem; */
