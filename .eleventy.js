@@ -2,7 +2,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img")
 
-const imageShortcode = async (src, alt, lazy=true) => {
+const imageShortcode = async (src, alt, customClass, lazy=true) => {
   if (!alt) {
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
@@ -46,7 +46,7 @@ const imageShortcode = async (src, alt, lazy=true) => {
   }
 
   
-  const stringReturn = `<picture> ${source} ${img} </picture>`;
+  const stringReturn = `<picture class="${customClass}"> ${source} ${img} </picture>`;
   return stringReturn;
 };
 

@@ -16,7 +16,7 @@
 } */
 
 :root {
-    --text-width: 40rem;
+    --text-width: 35rem;
     --gap: min(1.5rem, 2vw);
 
 
@@ -76,6 +76,7 @@ body {
     font-family: Inter, Roboto, Arial, Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.8rem;
+    color: #111111;
 }
 h1 {
     font-family: "Whirly Birdie", Helvetica, Arial, sans-serif;
@@ -373,6 +374,9 @@ video {
 .full-width {
     margin: 4rem auto;
 }
+.small-image {
+    max-width: 75%;
+}
 blockquote {
     margin-left: 2rem;
 }
@@ -398,9 +402,14 @@ iframe{
 .align-right {
     text-align: right;
 }
-.post-container img,
-.post-container iframe {
-    box-shadow: 3px 3px 0px 1px var(--shadow-color);
+.post-container picture,
+.post-container iframe,
+video {
+    box-shadow: -10px 10px 0px 0px var(--shadow-color);
+    /* margin-bottom: 0.5rem; */
+}
+.no-shadow {
+    box-shadow: none !important;
 }
 figcaption,
 .authorDate,
@@ -417,8 +426,45 @@ a {
     text-decoration: none;
 }
 cite {
-    font-size: .8rem;
+    font-size: 0.8rem;
 }
+aside {
+    font-size: 0.8rem;
+    background-color: var(--background-color-light);
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+ol li {
+    list-style: decimal;
+}
+/* .text-fade {
+    color: #000000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.text-fade.out {
+    background-image: -webkit-linear-gradient(0deg, #000000 0%, transparent 100%);
+}
+.text-fade.in {
+    background-image: -webkit-linear-gradient(180deg, #000000 0%, transparent 100%);
+} */
+.nav-box {
+    background-color: white;
+    padding: 10px 20px;
+    border: black 1px solid; 
+    line-height:2rem;
+}
+@media screen and (prefers-color-scheme: dark) {
+    nav-box {
+        background-color: var(--background-color-darkish);
+    }
+}
+
+
+      
 
 
 
@@ -501,6 +547,8 @@ header .bms {
 .title-image-post {
     max-height: 70px;
 }
+
+
 /* ----- FOOTER ----- */
 footer {
     /* margin-top: 4rem; */
@@ -558,7 +606,7 @@ button:disabled {
     text-align: center;
 }
 .img-center {
-    margin: 2rem auto 0;
+    margin: 2rem auto 2rem;
 }
 
 .fade-in {

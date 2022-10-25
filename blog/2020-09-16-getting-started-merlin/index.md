@@ -69,6 +69,8 @@ In my opinion, the reason the app is essential for every birder of all experienc
 
 So I encourage you to download Merlin and get to know your avian neighbors. Load up the most common species near you and take a listen to their sounds. In many cases the familiarity of the sound will click immediately and you will finally have a name for the bird whose song is already deeply embedded in your subconscious.  In other cases an unfamiliar sound, once brought to attention, will suddenly be heard everywhere. Once you learn the most common sounds you can expand out from there, on and ever onward! I am still “discovering” new sounds from familiar birds all the time.
 
+<p id="recs"></p>
+
 For those wanting to go a little deeper there are many recommended resources: [Larkwire](https://www.larkwire.com/) is a well-designed birdsong learning app that has helped me prepare for many field seasons as well as the web-based (and free) [Dendroica](https://www.natureinstruct.org/dendroica/); Nathan Pieplow’s [Field Guide to Bird Sounds of North America](https://earbirding.com/blog/book) is eminently useful for the bird repertoire completist with a mostly successful attempt to catalogue similar bird sounds for comparison; Donald Kroodsma’s new [Birdsong for the Curious Naturalist](http://www.birdsongforthecurious.com/) gives plenty of interesting birdsong insights with recordings and suggestions for observation and amateur study. Of course, the birds themselves are the best resources for bird sound and just learning a few of their names will open the door to an exciting new world to explore.
 
 Happy listening.
