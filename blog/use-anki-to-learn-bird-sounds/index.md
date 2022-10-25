@@ -1,6 +1,6 @@
 ---
 title: How to use Anki to learn bird sounds
-date: "2022-10-21"
+date: "2022-10-24"
 coverImage: "images/anki/hero-grackle.jpg"
 description: "Using batch media imports, you can quickly create custom Anki decks to efficiently learn any bird sound."
 ---
