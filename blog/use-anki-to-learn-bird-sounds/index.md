@@ -1,5 +1,5 @@
 ---
-title: How to use Anki to learn bird sounds
+title: "How to use Anki to learn bird sounds"
 date: "2022-10-25"
 coverImage: "images/anki/hero-grackle.jpg"
 description: "Using batch media imports, you can quickly create custom Anki decks to efficiently learn any bird sound."
@@ -90,7 +90,7 @@ Once you have the sound files you want to study, copy them into a folder on your
 
 <h3>Batch import files to create a study deck</h3>
 
-Now when you go to the **Tools** menu in Anki, click on the newly added **Media Import...**
+Go to the **Tools** menu in Anki, click on the newly added **Media Import...**
 
 For **Media directory** click on **browse** and select the folder with your sound files. There are some options you can explore but I use the default *Basic* note type with *Media* on the front and *File Name* on the back. Click **OK** to create the new deck.
 
