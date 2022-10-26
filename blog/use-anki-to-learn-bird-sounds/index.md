@@ -11,7 +11,7 @@ Maybe you're new to birding or traveling somewhere with unfamiliar birds. Maybe 
 
 You've just gotta learn those bird sounds.
 
-[As I wrote before](/blog/2020-09-16-getting-started-merlin#recs), there are many resources available to learn bird vocalizations. When you want to test yourself using your own sound files, however, it seems the options are limited. Shuffling mp3s *works* but I've always found the experience wanting and haven't had much lasting success.
+[As I've written before](/blog/2020-09-16-getting-started-merlin#recs), there are many resources available to learn bird vocalizations. When you want to test yourself using your own sound files, however, it seems the options are limited. Shuffling mp3s *works* but I've always found the experience wanting and haven't had much lasting success.
 
 Enter [Anki](https://apps.ankiweb.net/). Anki is free flashcard software that is built around the concept of [spaced repetition](https://en.wikipedia.org/wiki/Spaced_repetition). Basically, as you keep working with it, you'll be tested more often on things you are less confident about instead of endlessly confirming things that you do. Efficiency!
 
@@ -23,7 +23,7 @@ My initial excitement at the discovery of Anki was tempered by the tedious proce
 
 Anki is popular with medical and law students, but I've never heard of birders using it for learning bird sounds. The interface doesn't *wow* you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface. There are also mobile versions of the app with the ability to sync your data across devices.
 
-With a winning combination of flexibility and efficiency, birders of any experience level would benefit from having Anki in their toolbox. 
+With a winning combination of flexibility and efficiency, birders of any experience level would benefit from having Anki in their toolbox.
 
 So lets get to it!
 
@@ -80,7 +80,7 @@ After it installs you'll need to close and reopen Anki for the add-on to be enab
 
 <h3>Gathering Sound Files</h3>
 
-You can use whatever sound files you want – that's the beauty! Personally, I like using the [Cornell Guide to Bird Sounds](https://www.macaulaylibrary.org/product/the-cornell-guide-to-bird-sounds-us-and-canada/) as a starting point which can then be supplemented with sounds from [Xeno-Canto](https://xeno-canto.org/) and my own personal stash.
+You can use whatever sound files you want – that's the beauty! Personally, I like using the [Cornell Guide to Bird Sounds](https://www.macaulaylibrary.org/product/the-cornell-guide-to-bird-sounds-us-and-canada/) as a starting point which you can then supplement with sounds from [Xeno-Canto](https://xeno-canto.org/) and your own personal stash.
 
 Once you have the sound files you want to study, copy them into a folder on your computer.
 

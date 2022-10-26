@@ -441,7 +441,7 @@ cite {
     font-size: 0.8rem;
 }
 aside {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     background-color: var(--background-color-light);
     border: 1px solid black;
     padding: 1rem;
