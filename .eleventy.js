@@ -1,6 +1,7 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { DateTime } = require("luxon");
-const Image = require("@11ty/eleventy-img")
+const Image = require("@11ty/eleventy-img");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 const imageShortcode = async (src, alt, customClass, lazy=true) => {
   if (!alt) {
@@ -133,6 +134,8 @@ const asyncImageCssBackground = async(src, selector) => {
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    eleventyConfig.addPlugin(pluginRss);
+
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('videos');
