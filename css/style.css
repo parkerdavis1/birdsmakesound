@@ -490,8 +490,14 @@ ol li {
     gap: 1rem;
 }
 .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
     align-self: center;
     padding: 1rem;
+    text-align: center;
 }
 .huge-title {
     font-size: clamp(4rem, 3.6471rem + 1.8824vw, 6rem);
@@ -594,7 +600,7 @@ button:disabled {
     opacity: 0.5;
 }
 
-.footer-icon {
+.rss-icon {
     border-radius: 5px;
 }
 
