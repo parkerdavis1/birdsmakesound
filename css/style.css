@@ -602,6 +602,8 @@ button:disabled {
 
 .rss-icon {
     border-radius: 5px;
+    height: 20px;
+    width: 20px;
 }
 
 /* ----- ABOUT ----- */
