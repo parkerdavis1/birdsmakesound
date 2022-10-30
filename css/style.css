@@ -190,6 +190,8 @@ header h1 {
     width: 1.5rem;
     border-radius: 2px;
     position: relative;
+    transition: transform 500ms;
+
 }
 
 .nav-toggle-label:hover {
@@ -209,6 +211,20 @@ header h1 {
 .nav-toggle-label span::after {
     top: 7px;
 }
+
+/* ----- HAMBURGER ANIMATION  ----- */
+
+.nav-toggle:checked ~ .nav-toggle-label-container .nav-toggle-label span::before {
+    transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle:checked ~ .nav-toggle-label-container .nav-toggle-label span {
+    background: transparent;
+}
+.nav-toggle:checked ~ .nav-toggle-label-container .nav-toggle-label span::after {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
 
 /* ----- DESKTOP MEDIA QUERY ----- */
 
