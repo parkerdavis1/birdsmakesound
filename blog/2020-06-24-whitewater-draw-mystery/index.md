@@ -29,8 +29,10 @@ In the morning, we were posted up by the wetland before sunrise, soaking in the 
 
 Fun fact about Sandhill Cranes: their tracheas are elongated and coiled into their sternum. This tracheal elongation allows the cranes to have deeper, more harmonically rich voices with lower formant frequencies, making them sound even larger than they already are. The coiling around the sternum, a clever way to fit this elongated trachea into a crane body, is also thought to allow the sternum to act as a amplifying resonator. In other words, it helps the cranes croak and scream at ear-shattering volume. Cranes are amazing.
 
-<div class="center">
-    <iframe src="https://macaulaylibrary.org/asset/143313381/embed" height="548" width="640" frameborder="0" allowfullscreen></iframe>
+<div class="full-width">
+<!-- <iframe src="https://macaulaylibrary.org/asset/143313381/embed" height="548" width="640" frameborder="0" allowfullscreen></iframe> -->
+{% image "blog/2020-06-24-whitewater-draw-mystery/images/crane-pair.jpg", "Adult and juvenile Sandhill Cranes" %}
+<figcaption><a href="https://macaulaylibrary.org/asset/143313381">Photo: Parker Davis</a></figcaption>
 </div>
 
 Once most of the cranes had departed for the morning we were left to wander the grounds to see what other birds and critters were around — which brings us to the aforementioned recording that has transfixed me ever since. In a tiny murky pond opposite the cranes were a pair of Northern Shovelers, striking ducks with large spade-shaped bills, and an interesting sound. I pointed my parabolic microphone towards the shovelers, slipped on my headphones and pressed record. Here it is again:
@@ -45,7 +47,7 @@ So good. A low clucking sound, sometimes phoneticized as ‘Tsook’ is the most
 
 In the coming months, I would return to the recording and try to find any mention of this grunty-smoochy Northern Shoveler vocalization. The excellent Peterson Field Guide to Bird Sounds curated by Nathan Pieplow is my go-to resource for a concise yet near-comprehensive recorded catalogue of bird vocalizations in North America — but this sound was absent. I browsed the extensive offerings at the Macaulay Library and Xeno-Canto but still could not find this vocalization. Even the Birds of the World account had no mention of this vocalization as far as I could tell, though I often find text descriptions of bird vocalizations a bit inscrutable:
 
-<blockquote>McKinney (McKinney 1970) recorded rhythmical wheezy whe or thic or quiet took notes by males during copulation; also recorded one male giving a long sighing noise at copulation. Postcopulatory behavior by males usually includes a loud, nasal paaay, followed by a series of repeated calls.
+<blockquote class="quote-largetext">McKinney (McKinney 1970) recorded rhythmical wheezy whe or thic or quiet took notes by males during copulation; also recorded one male giving a long sighing noise at copulation. Postcopulatory behavior by males usually includes a loud, nasal paaay, followed by a series of repeated calls.
 <figcaption>https://birdsoftheworld.org/bow/species/norsho/cur/sounds</figcaption>
 </blockquote>
 

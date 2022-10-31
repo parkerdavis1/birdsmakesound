@@ -439,13 +439,23 @@ video {
 .no-shadow {
     box-shadow: none !important;
 }
+
+
+
 figcaption,
 .authorDate,
 .indexDate {
     font-family: "Courier New", monospace;
-    margin-top: 0 !important;
+    margin-top: 0;
     font-size: .8rem;
 }
+
+.post-container picture + figcaption,
+.post-container iframe + figcaption,
+video + figcaption {
+    margin-top: 0.2rem;
+}
+
 .author {
     font-weight: 600;
 }
