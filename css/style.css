@@ -666,6 +666,19 @@ button:disabled {
     opacity: 1;
 }
 
+.social-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
 /* ----- DARK MODE ----- */
 @media screen and (prefers-color-scheme: dark) {
     body {
