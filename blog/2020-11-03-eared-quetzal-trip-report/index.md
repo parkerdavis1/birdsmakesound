@@ -14,7 +14,7 @@ The primary target of our trip was a pair of famed Eared Quetzals that had been 
 
 We set off from Phoenix to Tucson with our food, water, camping gear and fresh coffee. Even before reaching Tucson, we had an appointment with a bird. Taking the Ina Road exit on the north edge of the city, we drove past hotels, gas stations, and expansive strip malls that define the sprawling American suburban experience until we got to where the road passes over the Santa Rita River. On the pedestrian path along the roaring four-lane bridge, we had a clear vantage point over the modest slow-flowing river. Truthfully there is nothing modest about any Arizona river with water. With dams, drought, and many sipping straws throughout the western watersheds there are only a few rivers defiantly flowing on. Looking down at the river, from just a stone's throw away, we had an unobstructed view of an adult **Northern Jacana**.
 
-<div class="full-width">
+<div class="med-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/jacana.jpg", "Northern Jacana" %}
     <figcaption>Northern Jacana – photo: Nell Smith</figcaption>
 </div>
@@ -29,21 +29,21 @@ With extremely long toes, the Northern Jacana can walk on top of floating vegeta
 
 After picking up some to-go sandwiches in Tucson, we continued our tour of Interstate 10. Next up was Cochise Lake in Wilcox, Arizona. As we scanned through hundreds of ducks, shorebirds, and a few dozen flyover Sandhill Cranes, we were visited by an uncharacteristically tame immature Greater Roadrunner. While the focus of our trip was skewed towards the rare and unusual, that doesn't mean we didn't savor some quality time with this prehistoric ground-dwelling desert cuckoo.
 
-<div class="full-width">
+<div class="med-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/roadrunner.jpg", "Greater Roadrunner" %}
     <figcaption>Greater Roadrunner – photo: Nell Smith</figcaption>
 </div>
 
 Returning to the search, we found one of our target birds: a type of phalarope, peculiar shorebirds whose females flaunt the flashier plumage and after laying their eggs leave the males to tend to the young. Very rarely seen away from the coast, our so-called **Red Phalarope** was in its nondescript non-red non-breeding plumage. Still cause for celebration, Nell and I cracked open a couple seltzers and continued to scan the lake.
 
-<div class="full-width">
+<div class="med-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/redpharalope.jpeg", "Red Phalarope" %}
     <figcaption>(not so) Red Pharalope</figcaption>
 </div>
 
 In the blazing direct sun (October is still hot here) with low blood sugar, we had a few confused misidentifications as we searched for another shorebird, briefly turning Greater Yellowlegs and Pectoral Sandpipers into the spectacularly out-of-place Eurasian species we were searching for. From across the lake, we caught a glimpse of a large shorebird with a relatively short bill and dull yellow legs with noticeably roughed-up scapulars and loose, floppy tertials. Driving to the other end of the lake we confirmed it was a **Ruff**, another shorebird with spectacular plumage while breeding in the arctic, sporting its drab non-breeding plumage for us. In celebration we found a patch of shade near the water and pulled out our sandwiches. Nell and I were very likely the first people in Arizona history to eat a reuben in the presence of a Ruff. Two more life birds for the day.
 
-<div class="full-width">
+<div class="med-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/ruff.jpeg", "Baird's Sandpiper and Ruff" %}
     <figcaption>Baird's Sandpiper (left) and Ruff (right) - note how ruff it looks</figcaption>
 </div>
@@ -54,7 +54,7 @@ After another two-hour jaunt, venturing southward from the I-10 via dirt road, w
 
 Momentarily distracted from our Quetzal quest, we then heard the distinctive squeal from about a quarter mile down canyon. We hurriedly shuffled down the road and spotted some movement through the trees. With each movement, there was a new announcement: “SqueeEEE-chuck”. From the other direction a few wide-eyed birders rounded the corner in pursuit and we all tried to catch glimpses of the visitors from the Sierra Madre Occidental. The birds were headed up canyon, presumably to roost for the night. We followed their sounds in the waning light, eventually catching a glimpse of one of the bird’s spectacularly blue back.
 
-<div class="full-width">
+<div class="med-width">
     {% image  "blog/2020-11-03-eared-quetzal-trip-report/images/quetzalback.JPG", "Eared Quetzal" %}
     <figcaption>Blue backside of an Eared Quetzal – photo: Nell Smith</figcaption>
 </div>

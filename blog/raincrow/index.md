@@ -29,7 +29,7 @@ Of particular interest was a [2017 observation at Beef Unit](https://ebird.org/c
 Beef Unit was...not as exciting as I had hoped. I don't remember much; there were some buildings, barns and farm equipment. There may have been some cows but there weren't a memorable amount of cows. At the time of our visit this University of Wyoming facility appeared udderly (*sorry*) lacking in activity – bird, bovine, or otherwise. Our checklist over the course of 25 minutes was as follows:
 [3 Rock Pigeon, 2 Common Raven, 1 Horned Lark, 6 House Sparrows](https://ebird.org/checklist/S64833277). It was hard to reconcile how these two lists could be so wildly different, same location, both in the final weeks of February. *What happened on February 25, 2017 at Beef Unit?*
 
-<div class="full-width">
+<div class="med-width">
 {% image "blog/raincrow/images/beefunit.png", "University of Wyoming Beef Unit" %}
 </div>
 
@@ -39,7 +39,7 @@ Asking around, we found out from the local keepers of bird knowledge (aka friend
 
 After figuring out the weather piece of the puzzle, there was, lucky us, a big snowstorm rolling in on the last day of my visit to Laramie. In the afternoon when the storm was kicking into high gear, Nell and I idled in low, heater on, cruising a dirt road on the north edge of town. Peering out the car windows we found a flock of Horned Larks and picked through them until we found a bird that was not like the others.
 
-<div class="video-container full-width fade-in">
+<div class="video-container med-width fade-in">
     <video controls autoplay muted loop loading="lazy">
         <source src="../../videos/lalo-snow.mov"
                     type="video/mp4">

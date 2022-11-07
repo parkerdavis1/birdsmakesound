@@ -396,10 +396,10 @@ video {
 .post-content > * {
     margin: 1.5rem auto 0;
 }
-.post-content > *:not(.full-width){
+.post-content > *:not(.med-width){
     max-width: var(--text-width);
 }
-.full-width {
+.med-width {
     margin: 4rem auto;
 }
 .small-image {

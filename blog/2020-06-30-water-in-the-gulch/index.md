@@ -19,7 +19,7 @@ The somewhat unusual aural combination of flowing water with Sonoran desert regu
 
 The Curve-billed Thrashers, however, were anything but relaxed. In a cholla a few feet from the flowing water was a freshly built nest and four thrashers interacting with a palpable intensity. One bird was singing constantly while the others vibrated with agitation, a stream of chatter flowing out of them. I normally find Curve-billed Thrasher songs to be extraordinary and beautiful, every bit as complex and impressive as a Northern Mockingbird’s song but more sweet and melodious (and less obnoxious). The songs in this recording, though, have a decidedly aggressive edge to them.
 
-<div class="full-width">
+<div class="med-width">
     {% image "./blog/2020-06-30-water-in-the-gulch/images/CBTH.jpg", "Curve-billed Thrasher perched in a creosote" %}
     <figcaption>Curve-billed Thrasher - Toxostoma curvirostre</figcaption>
 </div>

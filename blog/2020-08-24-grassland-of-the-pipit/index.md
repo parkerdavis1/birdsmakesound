@@ -19,7 +19,7 @@ At the time I was new enough to birding that I didn’t fully realize I wouldn�
 
 The bird that I treasure most from this recording is the Sprague’s Pipit. This is a bird that I have seen exactly once in my life, though I heard them skylarking most mornings in the summer of 2015. In their breeding displays they fly up into thin air, high enough to become essentially invisible from the ground. With wings spread they float downward while delivering a descending cascade of song, loud enough to be heard from the ground where judicious females watch and listen. They then flap up to regain their lost altitude and do it again. And again. And again. Displaying males repeat this process for between a half hour and three hours or more at a time. It is an incredible physical feat; just imagine singing at the top of your lungs while sprinting up a mountain. This only adds to what is for me an aesthetically awesome feat; these kaleidoscopic songs seem to emanate from the sky itself, the particularly expansive sky found above rolling grassland that extends beyond sight in every direction.
 
-<div class="full-width">
+<div class="med-width">
 {% image "blog/2020-08-24-grassland-of-the-pipit/images/grass1.jpg", "Grassland with rolling hills" %}
 </div>
 

@@ -29,7 +29,7 @@ In the morning, we were posted up by the wetland before sunrise, soaking in the 
 
 Fun fact about Sandhill Cranes: their tracheas are elongated and coiled into their sternum. This tracheal elongation allows the cranes to have deeper, more harmonically rich voices with lower formant frequencies, making them sound even larger than they already are. The coiling around the sternum, a clever way to fit this elongated trachea into a crane body, is also thought to allow the sternum to act as a amplifying resonator. In other words, it helps the cranes croak and scream at ear-shattering volume. Cranes are amazing.
 
-<div class="full-width">
+<div class="med-width">
 <!-- <iframe src="https://macaulaylibrary.org/asset/143313381/embed" height="548" width="640" frameborder="0" allowfullscreen></iframe> -->
 {% image "blog/2020-06-24-whitewater-draw-mystery/images/crane-pair.jpg", "Adult and juvenile Sandhill Cranes" %}
 <figcaption><a href="https://macaulaylibrary.org/asset/143313381">Photo: Parker Davis</a></figcaption>
