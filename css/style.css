@@ -589,7 +589,7 @@ header .bms {
 
 /* ----- FOOTER ----- */
 footer {
-    /* margin-top: 4rem; */
+    margin-top: 4rem;
     padding: 0.5rem;
     background-color: var(--prim-200);
     width: 100%;

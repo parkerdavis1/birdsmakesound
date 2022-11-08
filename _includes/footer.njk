@@ -1,10 +1,16 @@
 <footer>
+    <style>
+        small {
+            word-wrap: none;
+        }
+
+    </style>
     <div class="footer-links">
     <p><a href="/">Home</a></p>
     <p><a href="/about">About</a></p>
     <p><a href="/feed.xml"><img src="/images/rss-icon.png" class="rss-icon" alt="RSS icon" title="RSS feed"></a></p>
     </div>
-    <form id="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    {# <form id="email-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <div hidden aria-hidden="true">
             <label>
             Don’t fill this out if you're human: 
@@ -13,11 +19,22 @@
         </div>
         <label><input type="email" name="email" placeholder="Email 💌" required /></label>
         <button type="submit" id="submitButton">Subscribe</button>
+    </form> #}
+    <form
+    action="https://buttondown.email/api/emails/embed-subscribe/birdsmakesound"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/birdsmakesound', 'popupwindow')"
+    class="embeddable-buttondown-form"
+    >
+    <label for="bd-email" style="display: block">Sign up for email updates <small>(and nothing else)</small>:</label>
+    <input type="email" name="email" id="bd-email" placeholder="Email💌"/>
+    <input type="submit" value="Subscribe" />
     </form>
 </footer>
 
 <script>
-    let submitButton = document.getElementById('submitButton')
+    {# let submitButton = document.getElementById('submitButton')
     document.getElementById("email-form").addEventListener("submit", event => {
         event.preventDefault();
         let myForm = document.getElementById("email-form");
@@ -33,5 +50,5 @@
             submitButton.disabled = true;
             })
             .catch((error) => alert(error));
-    });
+    }); #}
 </script>
