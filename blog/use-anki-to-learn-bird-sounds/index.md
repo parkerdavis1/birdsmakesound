@@ -21,7 +21,7 @@ My initial excitement at the discovery of Anki was tempered by the tedious proce
 
 ...***BUT!*** I recently found out the Anki community has created [numerous "add-ons"](https://ankiweb.net/shared/addons/2.1) that add functionality to Anki. The [Media Import](https://ankiweb.net/shared/info/1531997860) add-on allows you to automatically create a deck of flashcards from a folder of sound files. By default it creates a card for each sound file with audio on the front and the file name on the back, so as long as your sound files have the bird's name in the title, you're good to go!
 
-Anki is popular for language learning, med/law school, and other memorization-heavy activities, but I've never heard of birders using it for learning bird sounds. The interface doesn't *wow* you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface. There are also mobile versions of the app with the ability to sync your data across devices.
+Anki is popular for language learning, med/law school, and other memorization-intensive activities, but I've never heard of birders using it for learning bird sounds. The interface doesn't *wow* you and it takes a bit of setting up (hence this walk-through), but once you start using it to study sounds it has an uncluttered look and feel with a nice keyboard interface. There are also mobile versions of the app with the ability to sync your data across devices.
 
 With a winning combination of flexibility and efficiency, birders of any experience level would benefit from having Anki in their toolbox.
 
