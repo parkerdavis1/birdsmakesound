@@ -39,7 +39,11 @@ layout: base.njk
             {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
             {%- if nextPost %}
                 <a href="{{ nextPost.url | url }}" class="nav-item">
-                    ←{{ nextPost.data.title }}
+                    <button>
+                    <p>Next Post:</p>
+                    <p>{{ nextPost.data.title }}</p>
+                    </button>
+                    
                 </a>
             {% else %}
                 <div></div>
@@ -48,7 +52,10 @@ layout: base.njk
             {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
             {%- if previousPost %}
                 <a href="{{ previousPost.url | url }}" class="nav-item">
-                {{ previousPost.data.title }}→
+                    <button>
+                        <p>Previous Post:</p>
+                        <p>{{ previousPost.data.title }}</p>
+                    </button>
                 </a>
             {% else %}
                 <div></div>

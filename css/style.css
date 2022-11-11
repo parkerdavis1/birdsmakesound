@@ -263,6 +263,7 @@ header h1 {
 
 .cover-image {
     height: 99vh;
+    height: 99svh;
     background-color: inherit;
     display: grid;
     align-items: center;
@@ -308,23 +309,7 @@ header h1 {
 video {
     max-width: 100%;
 }
-@media (max-width: 500px) {
-    .cover-image {
-        height: 50vh;
-    }
-    header nav {
-        display: none;
-    }
-    header {
-        justify-content: center;
-    }
-    .indexDate {
-        display: block;
-    }
-    .cover-image-attr {
-        font-size: 0.8rem;
-    }
-}
+
 .cover-image h1 {
     font-size: clamp(1.5rem, 1.0588rem + 2.3529vw, 4rem);
     text-align: center;
@@ -343,7 +328,7 @@ video {
     /* display: grid; */
     /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
     gap: 1rem;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
 }
 
 .nav-item {
@@ -354,15 +339,19 @@ video {
 .nav-right {
     justify-self: end;
 }
-.nav-item:hover {
+/* .nav-item:hover {
     background-color: white;
-}
-.nav-item:active {
+} */
+/* .nav-item:active {
     background-color: var(--shadow-color);
-}
+} */
 
 .post-content > .page-nav {
-    margin-top: 5rem;
+    margin-top: 10rem;
+}
+.page-nav button {
+    padding: 0;
+    text-align: left;
 }
 .page-nav .nav-item:last-of-type {
     width:fit-content;
@@ -372,11 +361,34 @@ video {
     display: none;
 }
 
+@media (max-width: 500px) {
+    .cover-image {
+        height: 50vh;
+        height: 50svh;
+    }
+    header nav {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+    .indexDate {
+        display: block;
+    }
+    .cover-image-attr {
+        font-size: 0.8rem;
+    }    
+    .page-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 /* ----- posts ----- */
 .footer-grid-container {
     height: 100vh;
+    height: 100svh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
@@ -386,22 +398,39 @@ video {
 .post-container {
     margin: 0 auto;
     /* margin-top: 4rem; */
-    max-width: 60rem;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
+    padding: 0;
 }
 .post-content {
     padding-top: 2rem;
     padding-bottom: 4rem;
 }
-.post-content > * {
-    margin: 1.5rem auto 0;
+.post-content p,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6
+{
+    padding: 0 1rem;
 }
-.post-content > *:not(.med-width){
+.post-content > * {
+    margin: 2rem auto 0;
+}
+.post-content > *:not(.med-width, .full-width, .custom-width){
     max-width: var(--text-width);
 }
+
 .med-width {
     margin: 4rem auto;
+    max-width: 60rem;
 }
+
+.full-width {
+    margin: 4rem auto;
+}
+
 .small-image {
     max-width: 75%;
 }
@@ -432,7 +461,8 @@ iframe{
 }
 .post-container picture,
 .post-container iframe,
-video {
+video,
+.horizontal-scroll {
     box-shadow: -10px 10px 0px 0px var(--shadow-color);
     /* margin-bottom: 0.5rem; */
 }
@@ -496,8 +526,6 @@ ol li {
     line-height:2rem;
 }
 
-      
-
 
 
 /* ----- index ----- */
@@ -507,6 +535,7 @@ ol li {
 }
 .index-container {
     height: 100vh;
+    height: 100svh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 45% auto 1fr 1fr;
@@ -637,6 +666,7 @@ button:disabled {
 .about-grid-container {
     display: grid;
     height: 100vh;
+    height: 100svh;
     grid-template-rows: auto 1fr auto;
 }
 .about-page {
@@ -652,6 +682,7 @@ button:disabled {
 }
 .img-center {
     margin: 2rem auto 2rem;
+    width: fit-content;
 }
 
 .fade-in {
@@ -698,9 +729,9 @@ button:disabled {
         color: var(--link-color-dark);
     }
 
-    .nav-item:hover {
+    /* .nav-item:hover {
         background-color: var(--background-color-darkish);
-    }
+    } */
 
     .quote-largetext {
         background-color: var(--background-color-darkish);
@@ -746,7 +777,10 @@ button:disabled {
     .post-container iframe,
     video {
         box-shadow: -10px 10px 0px 0px var(--shadow-color-dark);
-        opacity: 0.8;
+        opacity: 0.9;
+    }
+    .scroll-container picture {
+        opacity: 1;
     }
 
 
