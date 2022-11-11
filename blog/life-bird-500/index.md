@@ -170,13 +170,13 @@ On November 4th, 2022, I, Parker Davis, saw my <span class="celebratory-text">50
 
 Well, sort of. If you asked an [ABA Recording Rules and Interpretations](https://www.aba.org/aba-area-introduced-species/) purist, they’d tell you I’m somewhere around 496, due to rules about how long it takes feral populations of exotic birds to become established and therefore "countable" (Rosy-faced Lovebirds and Monk Parakeets in Phoenix count, but Yellow-collared Lovebirds and Nanday Parakeets do not, et cetera). These rules are useful for Big Year competitions but don't mean much for my general purpose life list. My eBird life list, on the other hand, currently shows 503 species due to temporary ["Domestic type" taxa life list inflation](https://ebird.org/news/2022-taxonomy-update). There is a surprising amount of gray area when you get down to it. According to me though, I just saw my 500th life bird.
 
-Last Thursday afternoon, [Tommy DeBardeleben](https://www.birderfrommaricopa.com/) posted in the AZ Rare Bird group chat that he found a Kentucky Warbler at the Jewel of the Creek Preserve. It had been stormy with downpours and even hail coming and going throughout the day. As someone from Phoenix, once the rain stops, cool temperatures and a sky full of dramatic clouds fill me with FOMO (fear of missing outside). A sunset bird chase is rarely successful in my experience but Nell and I had never been to the Jewel of the Creek preserve so we decided, hell, let’s go!
+Last Thursday afternoon, [Tommy DeBardeleben](https://www.birderfrommaricopa.com/) posted in the AZ Rare Bird group chat that he found a Kentucky Warbler at the Jewel of the Creek Preserve. It had been stormy with downpours and even hail coming and going throughout the day but by afternoon it was clearing. The resulting cool temperatures and sky full of dramatic clouds were beckoning us outside. A sunset bird chase is rarely successful in my experience but Nell and I had never been to the Jewel of the Creek preserve so we decided, hell, let’s go!
 
 <section class="custom-width scroll-container" style="height: 200vh; height: 200svh;">
 {% image "images/life-bird-500/jewel-of-the-creek.JPG", "Jewel of the Creek Preserve" %}
 <div class="scroll-container__text-overlay overlay">
 
-Jewel of the Creek is a well-named section of Cave Creek with spectacular views of huge cottonwoods surrounded by lush Sonoran desert. We explored the preserve as the sun set, taking in the views and the fresh air. We were treated to the company of some [nice birds](https://ebird.org/checklist/S121816498) and local birders, but the temperatures were dropping quickly and the birds settling in for the night. Of course we would have preferred to see the Kentucky Warbler, but as we drove home in the dark we had no regrets.
+Jewel of the Creek is a well-named section of Cave Creek with spectacular views of huge cottonwoods surrounded by lush Sonoran desert. We explored the preserve as the sun set, taking in the views and the smell of wet dirt. We were treated to the company of some [nice birds](https://ebird.org/checklist/S121816498) and local birders, but the temperatures were dropping quickly and the birds settling in for the night. Of course we would have preferred to see the Kentucky Warbler, but as we drove home in the dark we had no regrets.
 
 </div>
 </section>
@@ -189,9 +189,9 @@ Jewel of the Creek is a well-named section of Cave Creek with spectacular views 
 
 <section class="add-space">
 
-The next morning we decided we ought to try again. The scenery was still spectacular, the weather sunny and cool, our minds fresh and caffeinated. Taking our time birding along the creek, we lingered in patches of morning sun. Dara, a local birder, caught us basking and shared that she, along with most of the group from the night before, had just seen the bird.
+The next morning we decided we ought to try again. The scenery was still spectacular, the weather sunny and cool, our minds fresh and caffeinated. Taking our time birding along the creek, we lingered in patches of morning sun. Dara, a local birder, caught us basking and shared that she, along with most of the group from the night before, had just seen the bird up trail.
 
-We walked up the trail with a bit more urgency. We heard a series of loud down-slurred calls in the distance that sounded an awful lot like the Kentucky Warbler recordings we had listened to in preparation. Once we were about where we'd heard it we stood still, looking and listening, anticipation building with each passing Ruby-crowned Kinglet and rustling leaf. Eventually a blob of yellow and olive emerged, black-masked, foraging in the undergrowth.
+We walked with more urgency. We heard a series of loud down-slurred calls in the distance that sounded an awful lot like the Kentucky Warbler recordings we had listened to in preparation. Once we were about where we'd heard it we stopped, looking and listening, anticipation building with each passing Ruby-crowned Kinglet and rustling leaf. Eventually a blob of yellow and olive emerged, black-masked, foraging in the undergrowth.
 
 </section>
 
@@ -219,7 +219,7 @@ We stood in the shade of the willows and cottonwoods, watching the bird work its
 
 <p style="margin-top: 5rem">The number on a birder's life list is a poor measure of their bird knowledge or observational skills. I find life lists most useful for reflecting on the many experiences had while adding birds to it. With each bird an associated memory, a landmark in space and time. I'm not the same person as I was at bird #400 (Caspian Tern, 2018, California trip with Nell, on my way to play a solo show in San Francisco) or bird #300 (Hermit Warbler, 2017, birding Mingus Mountain with my mom)</p>
 
-No matter what number is assigned to it, seeing a new bird is worth celebrating. After hiking the long loop back to the car, we stopped in town to procure some celebratory provisions. A tradition among some birders is to eat [“Lifer Pie”](https://www.audubon.org/news/birding-its-own-reward-lifer-pie-makes-it-even-sweeter). Nell and I opted for a Lifer chicken parmesan sandwich instead.
+No matter what number is assigned to it, seeing a new bird is worth celebrating. After hiking the long loop back to the car, we stopped in town for celebratory provisions. A tradition among some birders is to eat [“Lifer Pie”](https://www.audubon.org/news/birding-its-own-reward-lifer-pie-makes-it-even-sweeter). Nell and I opted for a Lifer chicken parmesan sandwich instead.
 
 <div style="margin: 5rem auto">
 {% image "images/life-bird-500/chicken-parm-patio.JPG", "Parker and Nell celebrating" %}
