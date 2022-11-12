@@ -182,7 +182,7 @@ Last Thursday afternoon, [Tommy DeBardeleben](https://www.birderfrommaricopa.com
 {% image "images/life-bird-500/jewel-of-the-creek.JPG", "Jewel of the Creek Preserve" %}
 <div class="scroll-container__text-overlay overlay">
 
-Jewel of the Creek is a well-named section of Cave Creek with spectacular views of huge cottonwoods surrounded by lush Sonoran desert. We explored the preserve as the sun set, taking in the views and the smell of wet dirt and creosote. We were treated to the company of some [nice birds](https://ebird.org/checklist/S121816498) and local birders, but the temperatures were dropping quickly and the birds settling in for the night. Of course we would have preferred to see the Kentucky Warbler, but as we drove home in the dark we had no regrets.
+Jewel of the Creek is a well-named section of Cave Creek with spectacular views of huge cottonwoods surrounded by lush Sonoran desert. We explored the preserve as the sun set, taking in the views and the smell of wet dirt and creosote. We were treated to the company of some [nice birds](https://ebird.org/checklist/S121816498) and nice local birders, but the temperatures were dropping quickly and the birds settling in for the night. Of course we would have preferred to see the Kentucky Warbler, but as we drove home in the dark we had no regrets.
 
 </div>
 </section>
