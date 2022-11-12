@@ -9,12 +9,12 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
     .celebratory-text {
         background-image: linear-gradient(
             -225deg,
-            /* hsla(267, 100%, 86%, 1) 0%, */
-            #ebc01a,
+            hsla(267, 100%, 86%, 1) 0%,
+            /* #ebc01a, */
             /* #000 50%, */
             #555a40 50%,
-            #ebc01a
-            /* hsla(267, 100%, 86%, 1) 100% */
+            /* #ebc01a */
+            hsla(267, 100%, 86%, 1) 100%
         );
         background-size: auto auto;
         background-clip: border-box;
@@ -30,6 +30,7 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         font-size: larger;
         font-weight: bolder;
         text-align: center;
+        cursor: pointer;
     }
     .celebratory-text:hover {
         animation: textclip 2s linear infinite;
@@ -157,11 +158,11 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         .celebratory-text {
             background-image: linear-gradient(
             -225deg,
-            /* hsla(261, 53%, 48%, 1) 0%, */
-            #ebc01a,
+            hsla(261, 53%, 48%, 1) 0%,
+            /* #ebc01a, */
             #EEE 50%,
-            #ebc01a
-            /* hsla(261, 53%, 48%, 1) 100% */
+            /* #ebc01a */
+            hsla(261, 53%, 48%, 1) 100%
         );
         }
         .overlay {
@@ -231,3 +232,19 @@ No matter what number is assigned to it, seeing a new bird is worth celebrating.
 </div>
 
 It was good.
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+    const confettiButton = document.querySelector('.celebratory-text');
+    confettiButton.addEventListener('click', () => {
+        const confettiOffset = confettiButton.getBoundingClientRect();
+        confetti({
+                disableForReducedMotion: true,
+                origin: {
+                    x: ((confettiOffset.left + confettiOffset.right) / 2) / window.innerWidth,
+                    y: confettiOffset.bottom / window.innerHeight
+                }
+            });
+    })
+
+</script>
