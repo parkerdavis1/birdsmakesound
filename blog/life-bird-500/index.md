@@ -217,7 +217,7 @@ We set off with a bit more urgency. We heard a series of loud down-slurred calls
 {% image "images/life-bird-500/KEWA-spot.JPG", "Kentucky Warbler habitat", "z2" %}
 <div class="audio-element overlay">
 We stood in the shade of the willows and cottonwoods, watching the bird work its way through the tangles and brush. A life bird for me and a state bird for Nell, we were both treated to great looks (and adequate photos) as it foraged in and out of view. It even obliged to give a few calls while my recorder was running.
-<audio src="/images/life-bird-500/kewa.mp3" controls autoplay>Sorry, your browser does not support the HTML audio element</audio>
+<audio src="/images/life-bird-500/kewa.mp3" controls>Sorry, your browser does not support the HTML audio element</audio>
 <figcaption><a href="https://macaulaylibrary.org/asset/501121561">Recorded with Sony A10 (internal microphones)</a></figcaption>
 </div>
 </div>
