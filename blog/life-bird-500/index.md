@@ -24,7 +24,7 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         text-fill-color: transparent;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        animation: textclip 3s linear 10;
+        animation: textclip 3s linear infinite;
         display: inline-block;
 
         font-size: larger;
@@ -32,9 +32,9 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         text-align: center;
         cursor: pointer;
     }
-    .celebratory-text:hover {
+    /* .celebratory-text:hover {
         animation: textclip 2s linear infinite;
-    }
+    } */
 
     @keyframes textclip {
         to {
