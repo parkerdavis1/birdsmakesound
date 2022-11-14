@@ -526,6 +526,22 @@ ol li {
     line-height:2rem;
 }
 
+.newsletter {
+    text-align: left;
+    margin: 5rem auto 0;
+    border: 1px solid black;
+    padding: var(--gap);
+}
+.newsletter * {
+    margin-top: 0.5rem;
+}
+.newsletter label,
+.newsletter input {
+    margin-left: 1rem;
+}
+.newsletter label {
+    display: none;
+}
 
 
 /* ----- index ----- */
@@ -747,17 +763,17 @@ button:disabled {
         background-color: var(--background-color-darkish);
     }
     
-    footer input {
+    /* .newsletter input {
         background-color: var(--background-color-dark);
         color: white;
         border: 1px white solid;
         border-radius: 0.5rem;
         padding: 0.25rem 0.5rem;
     }
-    footer ::placeholder {
+    .newsletter ::placeholder {
         color: white;
         opacity: .7;
-    }
+    } */
 
     .nav-toggle-label span,
     .nav-toggle-label span::before,

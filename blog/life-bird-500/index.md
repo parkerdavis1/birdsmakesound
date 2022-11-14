@@ -4,7 +4,6 @@ date: "2022-11-11"
 coverImage: "images/life-bird-500/jewel-of-the-creek.JPG"
 description: "A celebration of my 500th life bird, even if it may or may not be my 500th life bird."
 ---
-
 <style>
     .celebratory-text {
         background-image: linear-gradient(
@@ -169,8 +168,9 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
             background-color: rgba(17, 25, 40, 0.75);
         }
     }
-
 </style>
+<script type="module" src="/is-land.js"></script>
+
 
 On November 4th, 2022, I, Parker Davis, saw my <span class="celebratory-text">500th life bird</span>.
 

@@ -20,7 +20,7 @@
         <label><input type="email" name="email" placeholder="Email 💌" required /></label>
         <button type="submit" id="submitButton">Subscribe</button>
     </form> #}
-    <form
+    {# <form
     action="https://buttondown.email/api/emails/embed-subscribe/birdsmakesound"
     method="post"
     target="popupwindow"
@@ -30,11 +30,11 @@
     <label for="bd-email" style="display: block">Sign up for email updates <small>(and nothing else)</small>:</label>
     <input type="email" name="email" id="bd-email" placeholder="Email💌"/>
     <input type="submit" value="Subscribe" />
-    </form>
+    </form> #}
 </footer>
-
+{# 
 <script>
-    {# let submitButton = document.getElementById('submitButton')
+    let submitButton = document.getElementById('submitButton')
     document.getElementById("email-form").addEventListener("submit", event => {
         event.preventDefault();
         let myForm = document.getElementById("email-form");
@@ -50,5 +50,5 @@
             submitButton.disabled = true;
             })
             .catch((error) => alert(error));
-    }); #}
-</script>
+    });
+</script> #}
