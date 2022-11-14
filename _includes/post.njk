@@ -61,27 +61,8 @@ layout: base.njk
                 <div></div>
             {% endif %}
             </nav>
-            <div class="newsletter">
-                <h2><a href="https://buttondown.email/birdsmakesound">Birds Make Sound Newsletter</a></h2>
-                {# <p>I'll send you email updates when there are new posts.</p> #}
-                <p>No spam, all birds make sound. <br>You’ll be notified of new posts, that’s about it!</p>
-
-                <p></p>
-
-                <form
-                    action="https://buttondown.email/api/emails/embed-subscribe/birdsmakesound"
-                    method="post"
-                    target="popupwindow"
-                    onsubmit="window.open('https://buttondown.email/birdsmakesound', 'popupwindow')"
-                    class="embeddable-buttondown-form"
-                    >
-                    <label for="bd-email">Enter your email</label>
-                    <input type="email" name="email" id="bd-email" placeholder="email@email.com" />
-                    <input type="submit" value="Subscribe" />
-                    <p>
-                        <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
-                    </p>
-                </form>
+            <div class="newsletter newsletter-post">
+                {% include "newsletter.html" %}
             </div>
         </div>
     </div>

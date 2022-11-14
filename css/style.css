@@ -535,12 +535,15 @@ ol li {
 .newsletter * {
     margin-top: 0.5rem;
 }
-.newsletter label,
-.newsletter input {
+.newsletter-post label,
+.newsletter-post input {
     margin-left: 1rem;
 }
 .newsletter label {
     display: none;
+}
+.newsletter-about {
+    margin: auto;
 }
 
 
