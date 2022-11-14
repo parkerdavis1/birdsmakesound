@@ -169,10 +169,29 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         }
     }
 </style>
+
 <script type="module" src="/is-land.js"></script>
-
-
-On November 4th, 2022, I, Parker Davis, saw my <span class="celebratory-text">500th life bird</span>.
+<p>On November 4th, 2022, I, Parker Davis, saw my 
+    <is-land on:interaction="touchstart,click,mouseenter,focusin">
+        <span class="celebratory-text">500th life bird</span>
+        <template data-island>
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+            <script>
+                const confettiButton = document.querySelector('.celebratory-text');
+                confettiButton.addEventListener('click', () => {
+                    const confettiOffset = confettiButton.getBoundingClientRect();
+                    confetti({
+                            disableForReducedMotion: true,
+                            origin: {
+                                x: ((confettiOffset.left + confettiOffset.right) / 2) / window.innerWidth,
+                                y: confettiOffset.bottom / window.innerHeight
+                            }
+                        });
+                })
+            </script>
+        </template>
+    </is-land>.
+</p>
 
 Well, sort of. If you asked an [ABA Recording Rules and Interpretations](https://www.aba.org/aba-area-introduced-species/) purist, they’d tell you I’m somewhere around 496, due to rules about how long it takes feral populations of exotic birds to become established and therefore "countable" (*Rosy-faced Lovebirds and Monk Parakeets in Phoenix count, but Yellow-collared Lovebirds and Nanday Parakeets do not, etc. – these rules are useful for Big Year competitions but don't mean much for my general purpose life list*).  On the other hand, my eBird life list currently shows 503 species due to temporary ["Domestic type" taxa life list inflation](https://ebird.org/news/2022-taxonomy-update). There is a surprising amount of gray area when you get down to it. If you ask me though, I just saw my 500th life bird.
 
@@ -232,19 +251,3 @@ No matter what number is assigned to it, seeing a new bird is worth celebrating.
 </div>
 
 It was good.
-
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-<script>
-    const confettiButton = document.querySelector('.celebratory-text');
-    confettiButton.addEventListener('click', () => {
-        const confettiOffset = confettiButton.getBoundingClientRect();
-        confetti({
-                disableForReducedMotion: true,
-                origin: {
-                    x: ((confettiOffset.left + confettiOffset.right) / 2) / window.innerWidth,
-                    y: confettiOffset.bottom / window.innerHeight
-                }
-            });
-    })
-
-</script>
