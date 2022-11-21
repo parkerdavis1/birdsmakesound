@@ -140,6 +140,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('images');
     eleventyConfig.addPassthroughCopy('videos');
     eleventyConfig.addPassthroughCopy('is-land.js');
+    eleventyConfig.addPassthroughCopy('robots.txt');
 
     eleventyConfig.addNunjucksAsyncShortcode("asyncCssBackground", asyncImageCssBackground);
 
