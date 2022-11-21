@@ -147,9 +147,17 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
+    eleventyConfig.setBrowserSyncConfig({
+      open: true,
+      browser: "Firefox Developer Edition"
+    });
+
     eleventyConfig.addFilter("readableDate", dateObj => {
       return DateTime.fromISO(dateObj).toFormat("MMMM d, yyyy");
-    })
+    });
+    
     return {
         markdownTemplateEngine: "njk",
         passthroughFileCopy: true
