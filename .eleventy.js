@@ -30,7 +30,7 @@ const imageShortcode = async (src, alt, customClass, lazy=true) => {
   );
 
   const source = `<source type="image/webp" srcset="${srcset["webp"]}">`;
-  let img = ''
+  let img = '';
   if (lazy) {
     img = `<img
     loading="lazy"
