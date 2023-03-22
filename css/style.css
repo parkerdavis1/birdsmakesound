@@ -588,6 +588,7 @@ ol li {
     margin: 5rem auto 0;
     border: 1px solid black;
     padding: var(--gap);
+    width: min(400px, 97%);
 }
 
 .newsletter * {
@@ -689,6 +690,7 @@ header .bms {
 
 .subtitle {
     align-self: start;
+    padding: 0 1rem;
 }
 
 .all-posts {
