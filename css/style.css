@@ -122,6 +122,11 @@ main {
     --flow-space: 0.5em;
 }
 
+pre {
+    margin: auto;
+    width: fit-content;
+}
+
 
 
 /* ----- NAV -----  */

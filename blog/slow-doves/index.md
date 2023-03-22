@@ -55,7 +55,7 @@ Spring has sprung in Phoenix so I wanted to share a quick recording to mark the 
 
 ### RainCrow
 
-RainCrow is humming along. If you don't know what the heck I'm talking about or what that even is, I did a [Q&A with Jason Crotty of 10,000 Birds](https://www.10000birds.com/ebird-weather-raincrow.htm) that should clear things up. You might be saying, yes this sounds great but I want it to be in French and Spanish. Great news! Marie-Andreée Boucher-Beaulieu, an Ontario birder/developer, helped add internationalization and translated RainCrow into French while JC Paniagua from Spain contributed the Spanish translation. Many thanks to them! If you want to translate RainCrow into another language, [email me](mailto:parker@birdsmakesound.com). RainCrow across the <span class="globe">globe!</span>
+[RainCrow](https://raincrow.netlify.app/) is humming along. If you don't know what the heck I'm talking about or what that even is, I did a [Q&A with Jason Crotty of 10,000 Birds](https://www.10000birds.com/ebird-weather-raincrow.htm) that should clear things up. You might be saying, yes this sounds great but I want it to be in French and Spanish. Great news! Marie-Andreée Boucher-Beaulieu, an Ontario birder/developer, helped add internationalization and translated RainCrow into French while JC Paniagua from Spain contributed the Spanish translation. Many thanks to them! If you want to translate RainCrow into another language, [email me](mailto:parker@birdsmakesound.com). RainCrow across the <span class="globe">globe!</span>
 
 ### Rare Bird Alert
 
