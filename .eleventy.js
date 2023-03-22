@@ -4,6 +4,7 @@ const Image = require("@11ty/eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItAttrs = require('markdown-it-attrs');
 
 const imageShortcode = async (src, alt, customClass, lazy=true) => {
   if (!alt) {
@@ -160,9 +161,17 @@ module.exports = function(eleventyConfig) {
       html: true,
       breaks: true,
       linkify: true
-    }).use(markdownItAnchor, {
+    })
+    .use(markdownItAttrs, {
+      // optional, these are default options
+      leftDelimiter: '{',
+      rightDelimiter: '}',
+      allowedAttributes: []  // empty array = all attributes are allowed
+    })
+    .use(markdownItAnchor, {
       permalink: markdownItAnchor.permalink.headerLink()
     });
+
     eleventyConfig.setLibrary('md', markdownLibrary);
     
     return {

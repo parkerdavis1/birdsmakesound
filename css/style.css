@@ -4,7 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora&family=Nunito+Sans&display=swap');
-@import url('')
+
 @font-face {
     font-family: "Whirly Birdie";
     src: url(./fonts/WhirlyBirdieVariable.ttf);
@@ -73,7 +73,7 @@
 body {
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-weight: 400;
-    line-height: 1.8rem;
+    line-height: 1.7em;
     color: #111111;
 }
 
@@ -574,7 +574,7 @@ ol li {
     background-color: white;
     padding: 10px 20px;
     border: black 1px solid; 
-    line-height:2rem;
+    line-height: 2rem;
 }
 
 .newsletter {

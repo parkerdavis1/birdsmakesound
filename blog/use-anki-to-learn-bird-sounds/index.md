@@ -27,9 +27,9 @@ With a winning combination of flexibility and efficiency, birders of any experie
 
 So lets get to it!
 
-<br id="howto">
 
-<h2>How to install Anki and batch import sound files</h2>
+
+## How to install Anki and batch import sound files { #howto }
 
 <section class="nav-box">
 
@@ -42,9 +42,9 @@ So lets get to it!
 
 </section>
 
-<br id="installing-anki">
 
-<h3>Installing Anki</h3>
+
+### Installing Anki { #installing-anki }
 
 First go to [https://apps.ankiweb.net/](https://apps.ankiweb.net/) and click on the big blue download button.
 
@@ -62,9 +62,9 @@ When you open Anki, it will look something like this:
 
 {% image "images/anki/anki-home2.png", "Anki Homescreen Screenshot", "small-image img-center" %}
 
-<br id="media-import">
 
-<h3>Installing Media Import Add-on</h3>
+
+### Installing Media Import Add-on { #media-import }
 
 Now we need to install the **Media Import**  Add-on which can be found [here](https://ankiweb.net/shared/info/1531997860). After perusing the introduction, scroll down to the **Download** section and copy the given download code.
 
@@ -76,9 +76,9 @@ In Anki, go to the **Tools** menu → **Add-ons** → **Get Add-ons...** paste i
 
 After it installs you'll need to close and reopen Anki for the add-on to be enabled.
 
-<br id="sound-files">
 
-<h3>Gathering Sound Files</h3>
+
+### Gathering Sound Files { #sound-files }
 
 You can use whatever sound files you want – that's the beauty! Personally, I like using the [Cornell Guide to Bird Sounds](https://www.macaulaylibrary.org/product/the-cornell-guide-to-bird-sounds-us-and-canada/) as a starting point which you can then supplement with sounds from [Xeno-Canto](https://xeno-canto.org/) and your own personal stash.
 
@@ -86,9 +86,9 @@ Once you have the sound files you want to study, copy them into a folder on your
 
 {% image "images/anki/sound-files.png", "File List Screenshot", "small-image img-center" %}
 
-<br id="batch-import">
 
-<h3>Batch import files to create a study deck</h3>
+
+### Batch import files to create a study deck { #batch-import }
 
 Go to the **Tools** menu in Anki, click on the newly added **Media Import...**
 
@@ -113,9 +113,9 @@ Note: All media is copied into a single master Anki media folder which means two
 
 </aside>
 
-<br id="anki-basics">
 
-<h3>Anki basics</h3>
+
+### Anki basics { #anki-basics }
 
 Now you are ready to study some bird sounds! 
 
@@ -127,9 +127,9 @@ It should start playing a random sound. Once you think you know what it is, pres
 
 After you reveal the answer there are four buttons to indicate your confidence for that sound. There are times above each button indicating how long before Anki will test you on the sound again. You can click them or use your keyboard to press **1-4** for **Again, Hard, Good,** and **Easy**. Then on to the next sound!
 
-<br id="onward">
 
-<h2>Onward</h2>
+
+## Onward { #onward }
 
 You can create as many decks as you want with any variation of sounds you can dream up, whether it be groups of similar sounding calls, overviews of specific habitats, or loudest shriekers only.
 
