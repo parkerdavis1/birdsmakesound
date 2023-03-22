@@ -59,7 +59,7 @@ Spring has sprung in Phoenix so I wanted to share a quick recording to mark the 
 
 ### Rare Bird Alert
 
-In other web development news, I made a [Rare Bird Alert](https://rarebird.parkerdavis.dev/) web app that builds on eBird’s API to allow you to peruse notable eBird sightings at a glance. *Parker, why? eBird already does this.* Yes, but not very well, at least not in counties like Maricopa where birds flagged as "rare" are constant and plentiful. My app groups sightings by species or location, allowing you to get a general overview, then view details for the birds you're interested in. No more endless <span class="marquee-container"><span class="hidden" title="scrolling">scrolling</span><span class="marquee-text">scrolling</span></span> through the morning RBA emails. Bonus, it looks good, has a responsive dark mode for late night bird browsing, and I learned a lot making it.
+In other web development news, I made a [Rare Bird Alert](https://rarebird.parkerdavis.dev/) web app that builds on eBird’s API to allow you to peruse notable eBird sightings at a glance. *Parker, why? eBird already does this.* Yes, but not very efficiently, at least not in counties like Maricopa where birds flagged as "rare" are constant and plentiful. My app groups sightings by species or location, allowing you to get a general overview, then view details for the birds you're interested in. No more endless <span class="marquee-container"><span class="hidden" title="scrolling">scrolling</span><span class="marquee-text">scrolling</span></span> through the morning RBA emails. Bonus, it looks good, has a responsive dark mode for late night bird browsing, and I learned a lot making it.
 
 ### Birds making sound!
 
