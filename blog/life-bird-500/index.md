@@ -59,6 +59,7 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         box-shadow: none;
         position: sticky;
         top: 0;
+        padding: 0;
     }
     .scroll-container img {
         /* border: 5px hotpink solid;   */
@@ -75,6 +76,7 @@ description: "A celebration of my 500th life bird, even if it may or may not be 
         padding: var(--gap);
         margin: auto;
         max-width: var(--text-width);
+        width: min(400px, 97%);
     }
 
     .overlay {
