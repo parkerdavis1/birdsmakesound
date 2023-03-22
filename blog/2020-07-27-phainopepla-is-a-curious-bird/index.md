@@ -11,17 +11,17 @@ The Phainopepla is a curious bird. Their tall crest and feathers of silky black 
 </div>
 
 <div class="center">
-<div>
-{% image "blog/2020-07-27-phainopepla-is-a-curious-bird/images/phai.jpg", "Sketch of Phainopepla" %}
-<figcaption>Phainopepla nitens</figcaption>
-</div>
+    <figure>
+        {% image "blog/2020-07-27-phainopepla-is-a-curious-bird/images/phai.jpg", "Sketch of Phainopepla" %}
+        <figcaption>Phainopepla nitens</figcaption>
+    </figure>
 </div>
 
 <div class="center">
-        <div>
+    <figure>
         <iframe src="https://macaulaylibrary.org/asset/193537631/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
         <figcaption>"Wert?" call</figcaption>
-        </div>
+    </figure>
 </div>
 
 The Phainopepla song is a modest volume series of burry and polyphonic phrases, evocative of blackbird and shrike vocalizations in their complexity. Those that work closely with Phainopepla have noted a bizarre vocal behavior when they're distressed while being handled: they unleash a near constant stream of loud ([and very convincing](https://macaulaylibrary.org/asset/238468)) imitations. These include a variety of hawk and other predator calls, perhaps in an attempt to distract or frighten, but they also mimic a wide variety of small harmless songbirds. Investigating this behavior, there is a [study](https://brill.com/view/journals/beh/138/6/article-p775_6.xml?body=contentSummary-29627) that shows a variety of imitations mixed with alarm calls is most effective at rallying other nearby species to help mob a predator. When threatened, the Phainopepla vocally simulates a multi-species scolding mob attempting to drive a predator away. This in turn helps manifest a real mob with real birds. Avian aural Twitter bots.
@@ -29,7 +29,9 @@ The Phainopepla song is a modest volume series of burry and polyphonic phrases, 
 Under normal circumstances one rarely hears these imitations in the field though. I had no idea Phainopeplas were mimics at all when I encountered a lone male singing from the top of a palo verde in the Phoenix Mountains Preserve in January 2019. I could hear the louder burry phrases typical of their song but interspersed throughout were quiet sounds I couldn’t quite make out. I snuck myself under the tree where the bird was singing and with the assistance of my microphone I then could hear what he was muttering.  Listen below:
 
 <div class="center">
-    <iframe src="https://macaulaylibrary.org/asset/136977141/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    <figure>
+        <iframe src="https://macaulaylibrary.org/asset/136977141/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    </figure>
 </div>
 
 After some introductory phrases he launches into a series of imitations at around 17 seconds in what is referred to as their *Quiet Song*. In this two minute clip I hear imitations of at least a dozen species, from desert dwelling critters like Curve-billed Thrasher and Harris’ Antelope Squirrel to a variety of higher elevation forest birds like Spotted Towhee, Cassin’s Kingbird, Tree Swallow, and Western Wood-pewee. Unlike the famous mimic, the Northern Mockingbird, which belts out its collection of imitations at the top of its lungs, the Phainopepla whispers them. They can’t be heard from more than a stone’s throw away, so who are they for? Sometimes quiet songs serve to strengthen pair bonds when birds are in close proximity – but I didn't see any other Phainopeplas nearby. Was he practicing?  I doubt it – they sound pretty crystallized to me. When listening to the extended recording he uses the same imitations many times with very similar phrasing and delivery. Was he feeling threatened, either by me or something else? Again, I doubt it – giving quiet imitations of birds that are currently hundreds of miles away doesn't seem like an effective mob-eliciting strategy in this context. Whatever the case may be, the function or meaning of imitation seems to be flexible in different contexts. They are very impressive though, why be so coy about it?

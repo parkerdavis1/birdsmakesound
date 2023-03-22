@@ -22,7 +22,9 @@ We set off from Phoenix to Tucson with our food, water, camping gear and fresh c
 With extremely long toes, the Northern Jacana can walk on top of floating vegetation and pick off otherwise hard to reach aquatic insects. Rails and other marsh birds are usually notoriously hard to see, skulking quietly in inaccessible marsh reeds. This jacana, however, rarely found north of the border, was doing its thing in plain view from the bustling suburban pedestrian bridge. Our first "life bird" of the day.
 
 <div class="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pTMX3AtqYgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pTMX3AtqYgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </figure>
 </div>
 
 ### Fizzy with the Phalarope, Reuben with the Ruff
@@ -66,13 +68,17 @@ We headed to the John Hands Campground, a nondescript patch of flat ground next 
 As dusk turned to night, we heard the tooting of (Mountain) Northern Pygmy-Owls, a Mexican subspecies whose song is slightly different than other Northern Pygmy-Owls. Listen for its uneven delivery of toots:
 
 <div class="center">
-    <iframe src="https://macaulaylibrary.org/asset/269261291/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    <figure>
+        <iframe src="https://macaulaylibrary.org/asset/269261291/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    </figure>
 </div>
 
 Later Whiskered Screech-Owls kicked off the next phase of the night with a burst of vocal activity, making a curious variety of sounds I had never heard before. I suspect it was a mix of adults and immatures judging from the varied quality of the calls but I’m not sure. Here is a phone recording from inside our tent to give an idea of how loud it was:
 
 <div class="center">
-    <iframe src="https://macaulaylibrary.org/asset/268821481/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    <figure>
+        <iframe src="https://macaulaylibrary.org/asset/268821481/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    </figure>
 </div>
 
 We also had some mammalian visitors in the night. Several times throughout the night we heard the rustling and sniffing of an apparently very curious critter just outside the tent. When we shot up and shined a headlamp towards the sound, our eyes were filled with the terrifying sight of a fluffy black and white skunk tail poised for action just feet away. Each time, thankfully, our friend the skunk would trot away without also filling our noses.
@@ -89,19 +95,25 @@ Just look at that freakin’ bird.
 Each time they moved to a new perch they would chatter and squeal in the most delightful way. Just listen to this freakin’ bird:
 
 <div class="center">
-    <iframe src="https://macaulaylibrary.org/asset/269266261/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    <figure>
+        <iframe src="https://macaulaylibrary.org/asset/269266261/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    </figure>
 </div>
 
 Here is the female in all her glory:
 
 <div class="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/JGrynLl9sqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JGrynLl9sqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </figure>
 </div>
 
 Here is the male, exciting a giggle from the author:
 
 <div class="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UF8YAuPYeLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UF8YAuPYeLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </figure>
 </div>
 
 More sounds and photos can be found on our eBird checklist [here](https://ebird.org/checklist/S74474732).

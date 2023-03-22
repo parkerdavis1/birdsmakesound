@@ -1,5 +1,5 @@
 ---
-title: Getting Started | Birding by Ear with Merlin
+title: Getting Started – Birding by Ear with Merlin
 date: "2020-09-16"
 ---
 
@@ -16,10 +16,10 @@ Of course the names themselves have no inherent value or truth. Some are descrip
 </div>
 
 <div class="center">
-    <div>
+    <figure>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/kgHnyPvuRNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <figcaption>Slow motion video of a Great-tailed Grackle </figcaption>
-    </div>
+    </figure>
 </div>
 
 Most people don't get into birds because of an interest in sound but that is how I started. The best part about getting started birding by ear is that you don't need to buy *anything*. Binoculars and a field guide are great but they’re not required to get started.

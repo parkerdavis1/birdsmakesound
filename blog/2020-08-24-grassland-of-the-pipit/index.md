@@ -9,10 +9,10 @@ A word of advice: record the places you go. It is easy to forget how remarkable 
 Below is one of the only sound recordings I made during my 2015 field season in the grasslands of Alberta, Canada. One of my tasks for that research project was to conduct line transects where I would write down every bird seen and heard while walking a predetermined line for a set amount of time. Before doing each line transect there is a buffer period where you are required to be still, watch, and listen. On this morning I set up my cheap Zoom H2 field recorder to document the buffer period.
 
 <div class="center">
-    <div>
-    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/880917784&color=%2386a1b0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-    <figcaption>(Headphones recommended)</figcaption>
-    </div>
+    <figure>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/880917784&color=%2386a1b0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <figcaption>(Headphones recommended)</figcaption>
+    </figure>
 </div>
 
 At the time I was new enough to birding that I didn’t fully realize I wouldn’t get to hear many of these grassland birds' songs again for a long time, including Savannah Sparrows, Grasshopper Sparrows and Long-billed Curlews. All of these birds stop during migration or even spend winters in Arizona, but while they're here they are mostly quiet. Grassland birds are often cryptic in plumage and habits, usually staying well hidden in the grass. During breeding season, however, they fill the air with song.

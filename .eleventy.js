@@ -2,6 +2,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
 
 const imageShortcode = async (src, alt, customClass, lazy=true) => {
   if (!alt) {
@@ -153,6 +155,15 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("readableDate", dateObj => {
       return DateTime.fromISO(dateObj).toFormat("MMMM d, yyyy");
     });
+
+    const markdownLibrary = markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true
+    }).use(markdownItAnchor, {
+      permalink: markdownItAnchor.permalink.headerLink()
+    });
+    eleventyConfig.setLibrary('md', markdownLibrary);
     
     return {
         markdownTemplateEngine: "njk",

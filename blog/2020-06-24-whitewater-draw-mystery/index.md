@@ -21,10 +21,10 @@ My girlfriend Nell and I had come to Whitewater Draw on the last night of Februa
 In the morning, we were posted up by the wetland before sunrise, soaking in the sights and sounds before the cranes took off to forage in nearby agricultural fields for the morning.
 
 <div class="center">
-    <div>
+    <figure>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/_TSt0MjzOW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <figcaption>Sunrise at Whitewater Draw 3/1/2019</figcaption>
-    </div>
+    </figure>
 </div>
 
 Fun fact about Sandhill Cranes: their tracheas are elongated and coiled into their sternum. This tracheal elongation allows the cranes to have deeper, more harmonically rich voices with lower formant frequencies, making them sound even larger than they already are. The coiling around the sternum, a clever way to fit this elongated trachea into a crane body, is also thought to allow the sternum to act as a amplifying resonator. In other words, it helps the cranes croak and scream at ear-shattering volume. Cranes are amazing.
@@ -56,7 +56,9 @@ Audio recording of birds is still a relatively young pursuit. While it is quickl
 Growing up in Phoenix, I rarely had occasion to listen to frogs and until recently have not given them much thought. With a sneaking suspicion I got ahold of Lang Elliott’s beautiful Frogs and Toads of North America and listened to all 99 tracks and 70 minutes. I was floored. The diversity of frog sounds and their charming wonkiness were completely entrancing. Still new to frog sound ID, I could say my grunty-smoochers were probably one of a handful of leopard frog species found in Arizona. A quick perusal of the Arizona Game and Fish Department website revealed Whitewater Draw is home to the **Plains Leopard Frog**.
 
 <div class="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/eH1oGkZCSzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eH1oGkZCSzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </figure>
 </div>
 
 It turns out my “Northern Shoveler” recording is almost entirely non-avian. The frogs that I failed to notice were likely giving what is referred to as an advertisement call. Frog advertisement calls are thought to function similarly to bird song in establishing territory, attracting females, repelling rival males. As with most animal vocalizations though, more nuances are likely to be found with closer study. These advertisement calls were apparently ineffectual on me but through sheer bizarreness eventually drew me into the wonderful world of amphibian acoustics. This is why I love paying attention to sounds, whether they’re birds, frogs, music or especially unknown sounds: you might learn something. And it is fun.

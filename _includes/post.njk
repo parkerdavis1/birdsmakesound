@@ -27,12 +27,11 @@ layout: base.njk
     <div class="post-container">
 
 
-        <div class="post-content testtesttest" id="post-start">
+        <div class="post-content flow" id="post-start">
             {# {% if not coverImage %} #}
             <h2><a href="{{ site.url }}{{page.url}}">{{title}}</a></h2>
             {# {% endif %} #}
             <p class="authorDate"><span class="author">{{author}}</span> | <span class="date">{{date | readableDate}}</span></p>
-            
             {{ content | safe }}
             
             <nav class="page-nav">

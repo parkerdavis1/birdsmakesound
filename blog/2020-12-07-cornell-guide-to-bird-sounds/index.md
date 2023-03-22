@@ -16,5 +16,7 @@ So check out the updated digital audio guide [The Cornell Guide to Bird Sounds: 
 In the spirit of thankfulness, here is a recording of displaying Hooded Mergansers from Thanksgiving last week. It is not featured in any digital guides but is a treat to listen to. It also happens to be the first audio recording in the Macaulay Library of Hooded Mergansers in Arizona — so that's cool too.
 
 <div class="center">
-    <iframe src="https://macaulaylibrary.org/asset/283192871/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    <figure>
+        <iframe src="https://macaulaylibrary.org/asset/283192871/embed" height="383" width="640" frameborder="0" allowfullscreen></iframe>
+    </figure>
 </div>

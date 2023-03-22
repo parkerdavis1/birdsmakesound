@@ -9,10 +9,10 @@ It's another hot dry day in Phoenix. Wildfires are burning across Arizona includ
 Normally at this time of year I do biological field work in cooler climes but with many field seasons being suspended this year due to COVID-19, I am plodding through summer with the rest of Phoenix. Through the magic of digital recording, however, I’m able to time-travel to a mere three months ago: It is in the mid-60s and after a sudden early spring downpour, the normally bone-dry gulch behind my house is full of flowing water.
 
 <div class="center">
-    <div>
+    <figure>
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/849131926&color=%236979a4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         <figcaption>(Headphones Recommended) -- Recorded with Sony PCM-A10 and FEL Stereo Clippy EM172s</figcaption>
-    </div>
+    </figure>
 </div>
 
 The somewhat unusual aural combination of flowing water with Sonoran desert regulars like a whistling Verdin, cooing Mourning Doves, and calling Curve-billed Thrashers all add up to a special and relaxing desert soundscape.
