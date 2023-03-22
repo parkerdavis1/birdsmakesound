@@ -1,7 +1,7 @@
 ---
 title: "Slow Doves (and updates)"
-date: "2023-03-17"
-description: "Updates from the past few months"
+date: "2023-03-22"
+description: "Slow motion bird recordings and updates from the past few months"
 ---
 <style>
     .marquee-container {
@@ -10,8 +10,6 @@ description: "Updates from the past few months"
         width: fit-content;
         overflow: hidden;
         position: relative;
-        /* background: white; */
-        /* border: black 1px solid; */
     }
 
     .hidden {
@@ -22,16 +20,9 @@ description: "Updates from the past few months"
         position: absolute;
         left: 0;
         width: 100%;
-        /* height: 100%; */
-        /* margin: 0; */
         line-height: 1em;
-        /* transform: translateY(-100%); */
         animation: marquee 3s linear infinite;
     }
-
-    /* .marquee-container:hover .marquee-text {
-        animation: none;
-    } */
 
     @keyframes marquee {
         from {
