@@ -161,14 +161,17 @@ header h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .nav-top a {
     text-decoration: none;
     font-size: 1.2rem;
-    /* text-transform: uppercase; */
     opacity: 0;
     transition: opacity 200ms ease-in-out;
+}
+
+.nav-top .nav-item:last-of-type {
     margin-bottom: 1rem;
 }
 
@@ -264,9 +267,12 @@ header h1 {
     }
     .nav-top {
         all: unset;
+        display: flex;
+        gap: 1rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        margin-right: 1rem;
     }
     .nav-top a {
         opacity: 1;
@@ -385,6 +391,7 @@ video {
     outline: var(--link-color-dark) solid 1px;
     padding: 1em;
     text-align: left;
+    max-width: 50%;
 }
 
 .page-nav .nav-item:last-of-type {
