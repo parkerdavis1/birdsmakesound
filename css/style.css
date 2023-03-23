@@ -284,6 +284,7 @@ header h1 {
     header .bms {
         margin-left: 1rem;
     }
+
 }
 
 
@@ -423,6 +424,10 @@ video {
     .page-nav {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .page-nav .nav-item {
+        max-width: 100%;
     }
 }
 
