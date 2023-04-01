@@ -122,6 +122,12 @@ main {
     --flow-space: 0.5em;
 }
 
+aside {
+    padding: 1rem;
+}
+
+
+
 /* pre {
     margin: auto;
     width: fit-content;
@@ -471,7 +477,7 @@ figure {
 } */
 
 
-.post-content > *:not(.scroll-container, .newsletter) {
+.post-content > *:not(.scroll-container, .newsletter, aside, .nav-box) {
     padding: 0 1rem;
 }
 
@@ -596,9 +602,15 @@ ol li {
 
 .nav-box {
     background-color: white;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding: 1rem 2rem;
     border: black 1px solid; 
     line-height: 2rem;
+}
+
+.nav-box li {
+    list-style: disc;
+    margin-left: 1rem;
 }
 
 .newsletter {
