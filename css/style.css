@@ -79,14 +79,11 @@ body {
 
 h1 {
     /* font-family: "Whirly Birdie", Helvetica, Arial, sans-serif; */
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 800;
-}
-
-h1 {
     font-size: clamp(1.5rem, 1.3235rem + 0.9412vw, 2.5rem);
     line-height: 1em;
     line-height: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
 }
 
 h2,
