@@ -5,6 +5,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const imageShortcode = async (src, alt, customClass, lazy=true) => {
   if (!alt) {
@@ -138,6 +139,7 @@ const asyncImageCssBackground = async(src, selector) => {
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('images');

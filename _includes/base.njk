@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-
-    {% if not description %}
-    {% set description = "Exploration of birds, sound, and recording." %}
-    {% endif %}
-    {% set socialImage = "https://birdsmakesound.com/images/birdsmakesoundsocial.jpg"%}
-    <link rel="shortcut icon" href="/images/birdsmakesoundicon.png" type="image/x-icon">
-
-    <meta name="description" content="{{ description }}" />
-    <link rel="canonical" href="https://birdsmakesound.com{{ page.url }}" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound"/>
-    <meta property="og:url" content="https://birdsmakesound.com{{ page.url }}" />
-    <meta property="og:description" content="{{ description }}" />
-    <meta property="og:image" content="{{socialImage}}" />
-    <meta property="og:type" content="article" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="{{description}}" />
-    <meta name="twitter:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound" />
-    <meta name="twitter:image" content="{{socialImage}}" />
-    <meta name="generator" content="{{ eleventy.generator }}">
-    <style>
-        {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
-        @media screen and (prefers-color-scheme: dark) {
-            {% asyncCssBackground "images/pengo-darkmode.jpg", ".bms" %}
-        }
-    </style>
-</head>
-<body>
-
-    {{ content | safe }}
-
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1da233d71eb44f1daab0276ec0ac5079"}'></script><!-- End Cloudflare Web Analytics -->
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            {% if title %}
+                {{ title }} &middot;
+            {% endif %}Birds Make Sound</title>
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+        <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+        {% if not description %}
+            {% set description = "Exploration of birds, sound, and recording." %}
+        {% endif %}
+        {% set socialImage = "https://birdsmakesound.com/images/birdsmakesoundsocial.jpg" %} <link rel="shortcut icon" href="/images/birdsmakesoundicon.png" type="image/x-icon">
+        <meta name="description" content="{{ description }}"/>
+        <link rel="canonical" href="https://birdsmakesound.com{{ page.url }}"/>
+        <meta name="robots" content="index, follow"/>
+        <meta property="og:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound"/>
+        <meta property="og:url" content="https://birdsmakesound.com{{ page.url }}"/>
+        <meta property="og:description" content="{{ description }}"/>
+        <meta property="og:image" content="{{ socialImage }}"/>
+        <meta property="og:type" content="article"/>
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:description" content="{{ description }}"/>
+        <meta name="twitter:title" content="{% if title %}{{ title }} &middot; {% endif %}Birds Make Sound"/>
+        <meta name="twitter:image" content="{{ socialImage }}"/>
+        <meta name="generator" content="{{ eleventy.generator }}">
+        <style>
+            {% asyncCssBackground "images/pengo-purp5.jpg", ".bms" %}
+            @media screen and(prefers-color-scheme: dark) {
+                {% asyncCssBackground "images/pengo-darkmode.jpg", ".bms" %}
+            }
+        </style>
+    </head>
+    <body>
+        {{ content | safe }}
+        <!-- Cloudflare Web Analytics -->
+        <script
+            defer
+            src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "1da233d71eb44f1daab0276ec0ac5079"}'></script>
+        <!-- End Cloudflare Web Analytics -->
+    </body>
 </html>
