@@ -2,6 +2,7 @@
 title: Water in the Gulch
 date: "2020-06-30"
 coverImage: "blog/2020-06-30-water-in-the-gulch/images/CBTH.jpg"
+description: "It's another hot dry day in Phoenix. Wildfires are burning across Arizona including the fifth largest fire in state history, 30 miles northeast of where I sit. The birds out the window have their beaks wide open, increasing their evaporative cooling while also appearing to share my slack-jawed incredulity at the relentless low-desert summer heat..."
 ---
 
 It's another hot dry day in Phoenix. Wildfires are burning across Arizona including the fifth largest fire in state history, 30 miles northeast of where I sit. The birds out the window have their beaks wide open, increasing their evaporative cooling while also appearing to share my slack-jawed incredulity at the relentless low-desert summer heat.

@@ -4,6 +4,7 @@ date: "2020-11-03"
 coverImage: "blog/2020-11-03-eared-quetzal-trip-report/images/quetzalfront.JPG"
 coverImageAttr: Nell Smith
 coverImageAttrLink: "https://nellsmithwriter.com"
+description: "You probably don’t need me to tell you that today (November 3rd, 2020) is Election Day. If you haven’t already, please go vote. If you have, it might be healthy to think about something else for a bit. To this end I offer a humble trip report from early October when Nell and I headed to southeast Arizona."
 ---
 
 You probably don’t need me to tell you that today (November 3rd, 2020) is Election Day. If you haven’t already, please go vote. If you have, it might be healthy to think about something else for a bit. To this end I offer a humble trip report from early October when Nell and I headed to southeast Arizona.

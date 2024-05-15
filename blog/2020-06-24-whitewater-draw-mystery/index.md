@@ -2,6 +2,7 @@
 title: Whitewater Draw Mystery
 date: "2020-06-24"
 coverImage: "blog/2020-06-24-whitewater-draw-mystery/images/cranes-fullres.jpg"
+description: "It's been over a year since I recorded this in March 2019 and I’m only just beginning to understand what it is."
 ---
 
 Listen to this:

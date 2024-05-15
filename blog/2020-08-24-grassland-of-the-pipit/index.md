@@ -2,6 +2,7 @@
 title: Grassland of the Pipit
 date: "2020-08-24"
 coverImage: "blog/2020-08-24-grassland-of-the-pipit/images/grass-drag.jpg"
+description: "A word of advice: record the places you go. It is easy to forget how remarkable everyday sounds are until you are far away, both in distance and in time."
 ---
 
 A word of advice: record the places you go. It is easy to forget how remarkable everyday sounds are until you are far away, both in distance and in time.

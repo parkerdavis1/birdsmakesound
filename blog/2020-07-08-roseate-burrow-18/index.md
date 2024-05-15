@@ -2,6 +2,7 @@
 title: "Roseate Burrow #18"
 date: "2020-07-08"
 coverImage: "blog/2020-07-08-roseate-burrow-18/images/rost-and-chick.png"
+description: "In the Summer of 2019 I worked on Stratton Island in Maine for National Audubon's Project Puffin. There were no puffins but many birds bred on the island including four species of tern. While Common Terns were the most...common, there was a sizeable Roseate population in the center of the colony, a few Arctic Terns scattered throughout, and Least Terns on the sandy beach landing."
 ---
 
 In the Summer of 2019 I worked on Stratton Island in Maine for National Audubon's Project Puffin. There were no puffins but many birds bred on the island including four species of tern. While Common Terns were the most...common, there was a sizeable Roseate population in the center of the colony, a few Arctic Terns scattered throughout, and Least Terns on the sandy beach landing.
