@@ -59,8 +59,8 @@
     /* --shadow-color-dark: var(--primary-400); */
     --background-color: rgba(244, 250, 255, 0.95);
 
-    --text-color-dark: #eeeeee;
-    --background-color-dark: rgb(30, 30, 30);
+    --text-color-dark: #dddddd;
+    --background-color-dark: hsl(267, 70%, 5%);
     --background-color-darkish: rgb(50, 50, 50);
     --link-color-dark: hsla(267, 100%, 86%, 1);
 
