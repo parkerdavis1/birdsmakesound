@@ -27,6 +27,8 @@ iframe {
 }
 </style>
 
+*(Originally posted on [parkerdavis.dev](https://parkerdavis.dev/blog/2024-03-birds-music-cognition/))*
+
 On Sunday I came across two fascinating and coincidentally convergent things that I'll share with you: a paper on songbird sound cognition that gives us a hint at just how differently European Starlings hear the world than humans, and a coding talk that was really all about bird song, music, and just-intonation.
 
 ## Songbirds use spectral shape, not pitch, for sound pattern recognition
