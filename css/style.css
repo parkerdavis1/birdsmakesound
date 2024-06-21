@@ -432,8 +432,7 @@ figure {
     padding-top: 2rem;
 }
 
-.post-content
-    > *:not(.scroll-container, .newsletter, aside, .nav-box, blockquote) {
+.post-content > *:not(.scroll-container, .newsletter, aside, .nav-box) {
     padding: 0 1rem;
 }
 
@@ -461,10 +460,11 @@ figure {
     max-width: 75%;
 }
 
-blockquote {
+blockquote p {
     /* margin-left: 2rem !important; */
     padding-left: 1rem;
     border-left: 2px var(--link-color) solid;
+    max-width: 100%;
 }
 
 .quote-largetext {

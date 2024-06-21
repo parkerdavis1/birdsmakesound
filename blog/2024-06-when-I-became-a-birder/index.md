@@ -1,11 +1,11 @@
 ---
 title: When I Became a Birder, Almost Everything Else Fell Into Place
 description: An short excellent essay by Ed Yong
-date: '2024-06-20'
+date: '2024-06-21'
 tags:
     - birds
     - birding
-draft: true
+draft: false
 ---
 
 [This short essay](https://www.nytimes.com/2024/03/30/opinion/birding-spring-merlin-ebird.html?unlocked_article_code=1.000.eh-X.CMLj_CsLEuai&smid=url-share) by Ed Yong is a great read. It feels accurate and totally relatable for the already bird-obsessed while also speaking to a general audience who isn't already steeped in the idiosyncrasies of birding.
