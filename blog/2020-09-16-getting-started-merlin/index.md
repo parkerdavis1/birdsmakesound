@@ -1,12 +1,12 @@
 ---
 title: Getting Started – Birding by Ear with Merlin
-date: "2020-09-16"
+date: '2020-09-16'
 description: "If you've been reading my blog, maybe my rambling about birds (coupled with a complete lack of public social life and a yearning for brief relief from constant confrontation with the absurd cruelty of present reality) has inspired a bird curiosity. Maybe you've taken note of the birds singing outside and maybe you've even used your phone to record a few minutes of sound. Nice."
 ---
 
 If you've been reading my blog, maybe my rambling about birds (coupled with a complete lack of public social life and a yearning for brief relief from constant confrontation with the absurd cruelty of present reality) has inspired a bird curiosity. Maybe you've taken note of the birds singing outside and maybe you've even used your phone to record a few minutes of sound. Nice.
 
-In my previous post I hinted at the virtues of listening without assigning labels to sounds, but there is a very big flip-side to that: there is also tremendous value in being able to name the birds you hear. Learning the voice and patterns of specific birds not only develops a general listening proficiency, but adds depths of nuance, associations and connections to a purely aesthetic or utilitarian mode of listening. It can turn a bird sound jumble into a choir of kin. 
+In my previous post I hinted at the virtues of listening without assigning labels to sounds, but there is a very big flip-side to that: there is also tremendous value in being able to name the birds you hear. Learning the voice and patterns of specific birds not only develops a general listening proficiency, but adds depths of nuance, associations and connections to a purely aesthetic or utilitarian mode of listening. It can turn a bird sound jumble into a choir of kin.
 
 Moving beyond a vague concept of “bird”, a named bird becomes familiar. When you observe the behavior of a named bird, such as a Great-tailed Grackle shrieking loudly in a parking lot tree, now you have a few bits of knowledge you didn’t have before: Great-tailed Grackles are loud, adapt well to human-altered landscapes, and they are pretty fun birds. Just by learning a bird’s name, you intuitively accumulate knowledge of their habits and preferences which in turn begins to crack open your own perceptions of your surroundings.
 
@@ -23,16 +23,16 @@ Of course the names themselves have no inherent value or truth. Some are descrip
     </figure>
 </div>
 
-Most people don't get into birds because of an interest in sound but that is how I started. The best part about getting started birding by ear is that you don't need to buy *anything*. Binoculars and a field guide are great but they’re not required to get started.
+Most people don't get into birds because of an interest in sound but that is how I started. The best part about getting started birding by ear is that you don't need to buy _anything_. Binoculars and a field guide are great but they’re not required to get started.
 
-There are troves of bird information and resources available with more becoming available all the time, many online and many free. A good first step towards bird literacy is to download the free [Merlin app](https://merlin.allaboutbirds.org/) from the Cornell Lab or Ornithology. I generally ignore the “primary” function of the app, which is to give you ID suggestions based on color, size, behavior, location, and date as well as automatically identifying photos of birds. All well and good but that is not how I use the app or why I recommend it.
+There are troves of bird information and resources available with more becoming available all the time, many online and many free. A good first step towards bird literacy is to download the free [Merlin app](https://merlin.allaboutbirds.org/) from the Cornell Lab of Ornithology. I generally ignore the “primary” function of the app, which is to give you ID suggestions based on color, size, behavior, location, and date as well as automatically identifying photos of birds. All well and good but that is not how I use the app or why I recommend it.
 
 <figure class="center" style="width: 20rem">
 {% image "./blog/2020-09-16-getting-started-merlin/images/merlinstart.jpeg", "Merlin Start Page Screenshot" %}
 <figcaption>Home screen for Merlin</figcaption>
 </figure>
 
-The features I regularly use are in the “Explore Species” section of the app. If you are curious what birds are around, you can input your location and date to display the most likely species based on [eBird data](https://ebird.org/about) with bar charts showing abundance trends throughout the year. 
+The features I regularly use are in the “Explore Species” section of the app. If you are curious what birds are around, you can input your location and date to display the most likely species based on [eBird data](https://ebird.org/about) with bar charts showing abundance trends throughout the year.
 
 <figure class="center" style="display: flex; flex-direction: row; gap: 10px;">
     <div>
@@ -68,7 +68,7 @@ In my opinion, the reason the app is essential for every birder of all experienc
 {% image "./blog/2020-09-16-getting-started-merlin/images/crissalthrasherspect.jpeg", "Merlin Crissal Thrasher Screenshot" %}
 </figure>
 
-So I encourage you to download Merlin and get to know your avian neighbors. Load up the most common species near you and take a listen to their sounds. In many cases the familiarity of the sound will click immediately and you will finally have a name for the bird whose song is already deeply embedded in your subconscious.  In other cases an unfamiliar sound, once brought to attention, will suddenly be heard everywhere. Once you learn the most common sounds you can expand out from there, on and ever onward! I am still “discovering” new sounds from familiar birds all the time.
+So I encourage you to download Merlin and get to know your avian neighbors. Load up the most common species near you and take a listen to their sounds. In many cases the familiarity of the sound will click immediately and you will finally have a name for the bird whose song is already deeply embedded in your subconscious. In other cases an unfamiliar sound, once brought to attention, will suddenly be heard everywhere. Once you learn the most common sounds you can expand out from there, on and ever onward! I am still “discovering” new sounds from familiar birds all the time.
 
 <p id="recs"></p>
 
