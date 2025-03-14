@@ -5,7 +5,7 @@ coverImage: 'images/anki/hero-grackle.jpg'
 description: 'Using batch media imports, you can quickly create custom Anki decks to efficiently learn any bird sound.'
 ---
 
-<a href="#howto"><button style="padding: 5px 15px;">Skip to "How To" section</button></a>
+<a href="#how-to-install-anki-and-batch-import-sound-files"><button style="padding: 5px 15px;">Skip to "How To" section</button></a>
 
 Maybe you're new to birding or traveling somewhere with unfamiliar birds. Maybe you have a season of point counts coming up. Maybe you're just tired of all your ear birder pals finding all the birds before you do.
 
@@ -27,21 +27,23 @@ With a winning combination of flexibility and efficiency, birders of any experie
 
 So lets get to it!
 
-## How to install Anki and batch import sound files { #howto }
+## How to install Anki and batch import sound files
 
 <section class="nav-box">
 
--   [How to install Anki and batch import sound files { #howto }](#how-to-install-anki-and-batch-import-sound-files--howto-)
-    -   [Installing Anki { #installing-anki }](#installing-anki--installing-anki-)
-    -   [Installing Media Import Add-on { #media-import }](#installing-media-import-add-on--media-import-)
-    -   [Gathering Sound Files { #sound-files }](#gathering-sound-files--sound-files-)
-    -   [Batch import files to create a study deck { #batch-import }](#batch-import-files-to-create-a-study-deck--batch-import-)
-    -   [Anki basics { #anki-basics }](#anki-basics--anki-basics-)
--   [Onward { #onward }](#onward--onward-)
+<!-- prettier-ignore-start -->
+
+-   [How to install Anki and batch import sound files](#how-to-install-anki-and-batch-import-sound-files)
+    -   [Installing Anki](#installing-anki)
+    -   [Installing Media Import Add-on](#installing-media-import-add-on)
+    -   [Gathering Sound Files](#gathering-sound-files)
+    -   [Batch import files to create a study deck](#batch-import-files-to-create-a-study-deck)
+    -   [Anki basics](#anki-basics)
+-   [Onward](#onward)
 
 </section>
 
-### Installing Anki { #installing-anki }
+### Installing Anki
 
 First go to [https://apps.ankiweb.net/](https://apps.ankiweb.net/) and click on the big blue download button.
 
@@ -59,7 +61,7 @@ When you open Anki, it will look something like this:
 
 {% image "images/anki/anki-home2.png", "Anki Homescreen Screenshot", "small-image img-center" %}
 
-### Installing Media Import Add-on { #media-import }
+### Installing Media Import Add-on
 
 Now we need to install the **Media Import** Add-on which can be found [here](https://ankiweb.net/shared/info/1531997860). After perusing the introduction, scroll down to the **Download** section and copy the given download code.
 
@@ -73,7 +75,7 @@ In Anki, go to the **Tools** menu → **Add-ons** → **Get Add-ons...** paste i
 
 After it installs you'll need to close and reopen Anki for the add-on to be enabled.
 
-### Gathering Sound Files { #sound-files }
+### Gathering Sound Files
 
 You can use whatever sound files you want – that's the beauty! Personally, I like using the [Cornell Guide to Bird Sounds](https://www.macaulaylibrary.org/product/the-cornell-guide-to-bird-sounds-us-and-canada/) as a starting point which you can then supplement with sounds from [Xeno-Canto](https://xeno-canto.org/) and your own personal stash.
 
@@ -81,7 +83,7 @@ Once you have the sound files you want to study, copy them into a folder on your
 
 {% image "images/anki/sound-files.png", "File List Screenshot", "small-image img-center" %}
 
-### Batch import files to create a study deck { #batch-import }
+### Batch import files to create a study deck
 
 Go to the **Tools** menu in Anki, click on the newly added **Media Import...**
 
@@ -106,7 +108,7 @@ Note: All media is copied into a single master Anki media folder which means two
 
 </aside>
 
-### Anki basics { #anki-basics }
+### Anki basics
 
 Now you are ready to study some bird sounds!
 
@@ -118,7 +120,7 @@ It should start playing a random sound. Once you think you know what it is, pres
 
 After you reveal the answer there are four buttons to indicate your confidence for that sound. There are times above each button indicating how long before Anki will test you on the sound again. You can click them or use your keyboard to press **1-4** for **Again, Hard, Good,** and **Easy**. Then on to the next sound!
 
-## Onward { #onward }
+## Onward
 
 You can create as many decks as you want with any variation of sounds you can dream up, whether it be groups of similar sounding calls, overviews of specific habitats, or loudest shriekers only.
 
